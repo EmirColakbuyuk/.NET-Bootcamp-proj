@@ -1,0 +1,6 @@
+@TechMarketApi_HostAddress = http://localhost:5128
+
+GET {{TechMarketApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
