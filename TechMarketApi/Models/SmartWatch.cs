@@ -12,9 +12,7 @@ namespace TechMarketApi.Models
         [Required]
         public string Brand { get; set; } = string.Empty;
 
-        [Required]
-        public string OperatingSystem { get; set; } = string.Empty;
-
+        
         [Required]
         public int BatteryLife { get; set; }
 
