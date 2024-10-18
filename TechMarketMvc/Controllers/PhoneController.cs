@@ -110,7 +110,20 @@ namespace TechMarketMvc.Controllers
             var phone = await _context.Phones.FindAsync(id);
             if (phone != null)
             {
-                _context.Phones.Remove(phone);
+                // Decrease the stock by 1
+                phone.Stock--;
+
+                if (phone.Stock <= 0)
+                {
+                    // If stock is 0 or less, remove the phone from the database
+                    _context.Phones.Remove(phone);
+                }
+                else
+                {
+                    // If stock is still above 0, just update it
+                    _context.Entry(phone).State = EntityState.Modified;
+                }
+
                 await _context.SaveChangesAsync();
             }
             return RedirectToAction(nameof(Index));

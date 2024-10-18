@@ -108,7 +108,20 @@ namespace TechMarketMvc.Controllers
             var smartwatch = await _context.Smartwatches.FindAsync(id);
             if (smartwatch != null)
             {
-                _context.Smartwatches.Remove(smartwatch);
+                // Decrease the stock by 1
+                smartwatch.Stock--;
+
+                if (smartwatch.Stock <= 0)
+                {
+                    // If stock is 0 or less, remove the smartwatch from the database
+                    _context.Smartwatches.Remove(smartwatch);
+                }
+                else
+                {
+                    // If stock is still above 0, just update it
+                    _context.Entry(smartwatch).State = EntityState.Modified;
+                }
+
                 await _context.SaveChangesAsync();
             }
             return RedirectToAction(nameof(Index));

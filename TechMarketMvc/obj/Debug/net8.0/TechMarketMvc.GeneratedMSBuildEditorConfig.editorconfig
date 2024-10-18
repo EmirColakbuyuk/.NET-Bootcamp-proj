@@ -18,6 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\emirc\OneDrive\Desktop\VsCode\.NET-Bootcamp-proj\TechMarketMvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Admin/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Computers/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJzXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Computers/Manage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJzXE1hbmFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

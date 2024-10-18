@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using TechMarketMvc.Models;
+using TechMarketMvc.ViewModels;
 
 namespace TechMarketMvc.Controllers;
 
@@ -15,7 +16,14 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        var model = new ProductViewModel
+        {
+            Computers = new List<Computer>(),
+            Phones = new List<Phone>(),
+            Smartwatches = new List<Smartwatch>()
+        };
+
+        return View(model);
     }
 
     public IActionResult Privacy()

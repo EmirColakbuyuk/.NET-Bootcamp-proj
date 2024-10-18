@@ -1,8 +1,46 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h2>Our Products</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <h3>Computers</h3>
+        <ul class="list-group">
+            @foreach (var computer in Model.Computers)
+            {
+                <li class="list-group-item">
+                    <strong>@computer.Name</strong> - @computer.Brand (@computer.Processor, @computer.RAM GB RAM)
+                    <span class="badge badge-secondary float-right">@computer.Stock in stock</span>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <div class="col-md-4">
+        <h3>Phones</h3>
+        <ul class="list-group">
+            @foreach (var phone in Model.Phones)
+            {
+                <li class="list-group-item">
+                    <strong>@phone.Name</strong> - @phone.Brand (@phone.OperatingSystem, @phone.RAM GB RAM)
+                    <span class="badge badge-secondary float-right">@phone.Stock in stock</span>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <div class="col-md-4">
+        <h3>Smartwatches</h3>
+        <ul class="list-group">
+            @foreach (var smartwatch in Model.Smartwatches)
+            {
+                <li class="list-group-item">
+                    <strong>@smartwatch.Name</strong> - @smartwatch.Brand (GPS: @smartwatch.HasGPS)
+                    <span class="badge badge-secondary float-right">@smartwatch.Stock in stock</span>
+                </li>
+            }
+        </ul>
+    </div>
 </div>

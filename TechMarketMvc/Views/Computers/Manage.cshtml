@@ -1,0 +1,119 @@
+@model IEnumerable<TechMarketMvc.Models.Computer>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Manage Computers</h2>
+
+<p>
+    <a class="btn btn-success" href="/Computers/Add">Add New Computer</a>
+</p>
+
+<!-- Display the success message if available -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Processor</th>
+            <th>RAM</th>
+            <th>Storage</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var computer in Model)
+        {
+            <tr>
+                <td>@computer.Name</td>
+                <td>@computer.Brand</td>
+                <td>@computer.Processor</td>
+                <td>@computer.RAM</td>
+                <td>@computer.Storage</td>
+                <td>@computer.Price</td>
+                <td>@computer.Stock</td>
+                <td>
+                    <a href="/Computers/Edit/@computer.Id" class="btn btn-primary">Edit</a>
+                    <!-- Delete button triggers the modal -->
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal" 
+                            data-id="@computer.Id" data-name="@computer.Name" data-ram="@computer.RAM" 
+                            data-storage="@computer.Storage">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Delete Confirmation Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Confirm Delete</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete the computer <strong id="deleteItemName"></strong> with 
+                <br> RAM: <span id="deleteItemRam"></span> 
+                <br> Storage: <span id="deleteItemStorage"></span>?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger" id="confirmDelete">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript to handle delete action -->
+<script>
+    var deleteItemId = 0;
+    var deleteItemName = '';
+    var deleteItemRam = '';
+    var deleteItemStorage = '';
+
+    // Capture delete button clicks and set modal data
+    document.querySelectorAll('[data-bs-target="#deleteModal"]').forEach(button => {
+        button.addEventListener('click', function () {
+            deleteItemId = this.getAttribute('data-id');
+            deleteItemName = this.getAttribute('data-name');
+            deleteItemRam = this.getAttribute('data-ram');
+            deleteItemStorage = this.getAttribute('data-storage');
+            
+            document.getElementById('deleteItemName').textContent = deleteItemName;
+            document.getElementById('deleteItemRam').textContent = deleteItemRam;
+            document.getElementById('deleteItemStorage').textContent = deleteItemStorage;
+        });
+    });
+
+    // Handle confirm delete button click
+    document.getElementById('confirmDelete').addEventListener('click', function () {
+        fetch(`/Computers/Delete/${deleteItemId}`, {
+            method: 'POST',
+            headers: {
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+            }
+        }).then(response => {
+            if (response.ok) {
+                // Close the modal
+                var modal = bootstrap.Modal.getInstance(document.getElementById('deleteModal'));
+                modal.hide();
+
+                // Reload the page to reflect the changes
+                window.location.reload();
+            }
+        }).catch(error => {
+            console.error('Error:', error);
+        });
+    });
+</script>

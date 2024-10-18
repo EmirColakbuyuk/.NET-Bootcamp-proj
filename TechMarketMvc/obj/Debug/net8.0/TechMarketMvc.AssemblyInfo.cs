@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechMarketMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c9a5837baed8fb664dcea2d4fb3152a5c85c4cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78135c7fdb21a510f0100167c266c78cf68a7dd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechMarketMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechMarketMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

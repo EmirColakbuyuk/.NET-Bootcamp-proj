@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TechMarketMvc.Data;
 using TechMarketMvc.Models;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace TechMarketMvc.Controllers
@@ -22,13 +23,27 @@ namespace TechMarketMvc.Controllers
             return View(computers);
         }
 
+        // GET: /Computers/Manage
+        // Allows filtering by name or brand
+        public async Task<IActionResult> Manage(string searchString)
+        {
+            var computers = from c in _context.Computers
+                            select c;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                computers = computers.Where(s => s.Name.Contains(searchString) || s.Brand.Contains(searchString));
+            }
+
+            return View(await computers.ToListAsync());
+        }
+
         // GET: /Computers/Add
         public IActionResult Add()
         {
-            return View(); 
+            return View();
         }
 
-        // POST: /Computers/Add
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Add(Computer computer)
@@ -38,9 +53,9 @@ namespace TechMarketMvc.Controllers
                 // Check if a computer with the same name, brand, processor, RAM, and storage exists
                 var existingComputer = await _context.Computers
                     .FirstOrDefaultAsync(c => c.Name == computer.Name && c.Brand == computer.Brand 
-                                              && c.Processor == computer.Processor 
-                                              && c.RAM == computer.RAM 
-                                              && c.Storage == computer.Storage);
+                                            && c.Processor == computer.Processor 
+                                            && c.RAM == computer.RAM 
+                                            && c.Storage == computer.Storage);
 
                 if (existingComputer != null)
                 {
@@ -55,7 +70,12 @@ namespace TechMarketMvc.Controllers
                 }
 
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+
+                // Set a success message in TempData
+                TempData["SuccessMessage"] = "Computer added successfully!";
+
+                // Redirect to the Manage page
+                return RedirectToAction("Manage");
             }
             return View(computer);
         }
@@ -68,7 +88,7 @@ namespace TechMarketMvc.Controllers
             {
                 return NotFound();
             }
-            return View(computer); 
+            return View(computer);
         }
 
         // POST: /Computers/Edit/5
@@ -99,21 +119,37 @@ namespace TechMarketMvc.Controllers
                 return NotFound();
             }
 
-            return View(computer); 
+            return View(computer);
         }
 
         // POST: /Computers/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var computer = await _context.Computers.FindAsync(id);
             if (computer != null)
             {
-                _context.Computers.Remove(computer);
+                // Decrease the stock by 1
+                computer.Stock--;
+
+                if (computer.Stock <= 0)
+                {
+                    // If stock is 0 or less, remove the computer from the database
+                    _context.Computers.Remove(computer);
+                }
+                else
+                {
+                    // If stock is still above 0, just update it
+                    _context.Entry(computer).State = EntityState.Modified;
+                }
+
                 await _context.SaveChangesAsync();
             }
-            return RedirectToAction(nameof(Index));
+
+            // Return a response but do not redirect
+            return NoContent();
         }
+
     }
 }
