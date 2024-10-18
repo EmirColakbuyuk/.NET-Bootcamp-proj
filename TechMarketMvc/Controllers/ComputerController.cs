@@ -35,11 +35,29 @@ namespace TechMarketMvc.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Computers.Add(computer);
+                // Check if a computer with the same name, brand, processor, RAM, and storage exists
+                var existingComputer = await _context.Computers
+                    .FirstOrDefaultAsync(c => c.Name == computer.Name && c.Brand == computer.Brand 
+                                              && c.Processor == computer.Processor 
+                                              && c.RAM == computer.RAM 
+                                              && c.Storage == computer.Storage);
+
+                if (existingComputer != null)
+                {
+                    // If it exists, update the stock
+                    existingComputer.Stock += computer.Stock;
+                    _context.Entry(existingComputer).State = EntityState.Modified;
+                }
+                else
+                {
+                    // If it does not exist, add it to the database
+                    _context.Computers.Add(computer);
+                }
+
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(computer); 
+            return View(computer);
         }
 
         // GET: /Computers/Edit/5
