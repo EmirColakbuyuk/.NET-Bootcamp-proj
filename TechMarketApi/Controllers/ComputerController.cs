@@ -16,14 +16,21 @@ namespace TechMarketApi.Controllers
             _context = context;
         }
 
-        // GET: api/Computer
-        [HttpGet]
+        // GET: api/Computer/getAll
+        // Fetches all computers from the database
+        [HttpGet("getAll")]
         public async Task<ActionResult<IEnumerable<Computer>>> GetComputers()
         {
-            return await _context.Computers.ToListAsync();
+            var computers = await _context.Computers.ToListAsync();
+            if (computers == null || computers.Count == 0)
+            {
+                return NotFound(new { message = "No computers found." });
+            }
+            return Ok(new { message = "Computers retrieved successfully.", data = computers });
         }
 
-        // GET: api/Computer/5
+        // GET: api/Computer/{id}
+        // Fetches a single computer by ID
         [HttpGet("{id}")]
         public async Task<ActionResult<Computer>> GetComputer(int id)
         {
@@ -31,19 +38,20 @@ namespace TechMarketApi.Controllers
 
             if (computer == null)
             {
-                return NotFound();
+                return NotFound(new { message = $"Computer with ID {id} not found." });
             }
 
-            return computer;
+            return Ok(new { message = $"Computer with ID {id} retrieved successfully.", data = computer });
         }
 
-        // PUT: api/Computer/5
-        [HttpPut("{id}")]
+        // PUT: api/Computer/update/{id}
+        // Updates a computer's details based on the provided ID
+        [HttpPut("update/{id}")]
         public async Task<IActionResult> PutComputer(int id, Computer computer)
         {
             if (id != computer.Id)
             {
-                return BadRequest();
+                return BadRequest(new { message = "Computer ID mismatch." });
             }
 
             _context.Entry(computer).State = EntityState.Modified;
@@ -56,44 +64,47 @@ namespace TechMarketApi.Controllers
             {
                 if (!ComputerExists(id))
                 {
-                    return NotFound();
+                    return NotFound(new { message = $"Computer with ID {id} not found." });
                 }
                 else
                 {
-                    throw;
+                    return StatusCode(500, new { message = "An error occurred while updating the computer." });
                 }
             }
 
-            return NoContent();
+            return Ok(new { message = $"Computer with ID {id} updated successfully." });
         }
 
-        // POST: api/Computer
-        [HttpPost]
+        // POST: api/Computer/add
+        // Adds a new computer to the database
+        [HttpPost("add")]
         public async Task<ActionResult<Computer>> PostComputer(Computer computer)
         {
             _context.Computers.Add(computer);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetComputer), new { id = computer.Id }, computer);
+            return CreatedAtAction(nameof(GetComputer), new { id = computer.Id }, 
+                new { message = "Computer added successfully.", data = computer });
         }
 
-        // DELETE: api/Computer/5
-        [HttpDelete("{id}")]
+        // DELETE: api/Computer/delete/{id}
+        // Deletes a computer based on the provided ID
+        [HttpDelete("delete/{id}")]
         public async Task<IActionResult> DeleteComputer(int id)
         {
             var computer = await _context.Computers.FindAsync(id);
             if (computer == null)
             {
-                return NotFound();
+                return NotFound(new { message = $"Computer with ID {id} not found." });
             }
 
             _context.Computers.Remove(computer);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok(new { message = $"Computer with ID {id} deleted successfully." });
         }
 
-        // Helper method to check if a computer exists
+        // Helper method to check if a computer exists by ID
         private bool ComputerExists(int id)
         {
             return _context.Computers.Any(e => e.Id == id);
