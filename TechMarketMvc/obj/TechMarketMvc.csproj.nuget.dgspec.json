@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\TechMarketMvc.csproj": {}
+    "/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/TechMarketMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\TechMarketMvc.csproj": {
+    "/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/TechMarketMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\TechMarketMvc.csproj",
+        "projectUniqueName": "/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/TechMarketMvc.csproj",
         "projectName": "TechMarketMvc",
-        "projectPath": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\TechMarketMvc.csproj",
-        "packagesPath": "C:\\Users\\emirc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\obj\\",
+        "projectPath": "/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/TechMarketMvc.csproj",
+        "packagesPath": "/Users/emircolakbuyuk/.nuget/packages/",
+        "outputPath": "/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emirc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/emircolakbuyuk/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

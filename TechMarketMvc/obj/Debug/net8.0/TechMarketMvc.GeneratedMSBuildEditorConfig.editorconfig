@@ -9,55 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TechMarketMvc
 build_property.RootNamespace = TechMarketMvc
-build_property.ProjectDir = C:\Users\emirc\OneDrive\Desktop\VsCode\.NET-Bootcamp-proj\TechMarketMvc\
+build_property.ProjectDir = /Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\emirc\OneDrive\Desktop\VsCode\.NET-Bootcamp-proj\TechMarketMvc
+build_property.MSBuildProjectDirectory = /Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Admin/AdminDashboard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
+[/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/Views/Admin/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWRtaW5EYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Admin/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+[/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Computers/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJzXEFkZC5jc2h0bWw=
+[/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/Views/Computers/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXJzL0FkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Computers/Manage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJzXE1hbmFnZS5jc2h0bWw=
+[/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/Views/Computers/Manage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXJzL01hbmFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-7v8tgf4nyi
+[/Users/emircolakbuyuk/Documents/.NET-Bootcamp-proj/TechMarketMvc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xojln56uz5
