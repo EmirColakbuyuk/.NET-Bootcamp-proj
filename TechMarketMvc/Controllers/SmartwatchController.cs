@@ -22,6 +22,20 @@ namespace TechMarketMvc.Controllers
             return View(smartwatches);
         }
 
+        // GET: /Smartwatches/Manage
+        public async Task<IActionResult> Manage(string searchString)
+        {
+            var smartwatches = from s in _context.Smartwatches
+                               select s;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                smartwatches = smartwatches.Where(s => s.Name.Contains(searchString) || s.Brand.Contains(searchString));
+            }
+
+            return View(await smartwatches.ToListAsync());
+        }
+
         // GET: /Smartwatches/Add
         public IActionResult Add()
         {
@@ -35,25 +49,23 @@ namespace TechMarketMvc.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Check if a smartwatch with the same name, brand, and HasGPS exists
                 var existingSmartwatch = await _context.Smartwatches
                     .FirstOrDefaultAsync(s => s.Name == smartwatch.Name && s.Brand == smartwatch.Brand 
                                               && s.HasGPS == smartwatch.HasGPS);
 
                 if (existingSmartwatch != null)
                 {
-                    // If it exists, update the stock
                     existingSmartwatch.Stock += smartwatch.Stock;
                     _context.Entry(existingSmartwatch).State = EntityState.Modified;
                 }
                 else
                 {
-                    // If it does not exist, add it to the database
                     _context.Smartwatches.Add(smartwatch);
                 }
 
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                TempData["SuccessMessage"] = "Smartwatch added successfully!";
+                return RedirectToAction("Manage");
             }
             return View(smartwatch);
         }
@@ -83,7 +95,8 @@ namespace TechMarketMvc.Controllers
             {
                 _context.Entry(smartwatch).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                TempData["SuccessMessage"] = "Smartwatch updated successfully!";
+                return RedirectToAction("Manage");
             }
             return View(smartwatch);
         }
@@ -96,7 +109,6 @@ namespace TechMarketMvc.Controllers
             {
                 return NotFound();
             }
-
             return View(smartwatch); 
         }
 
@@ -108,23 +120,11 @@ namespace TechMarketMvc.Controllers
             var smartwatch = await _context.Smartwatches.FindAsync(id);
             if (smartwatch != null)
             {
-                // Decrease the stock by 1
-                smartwatch.Stock--;
-
-                if (smartwatch.Stock <= 0)
-                {
-                    // If stock is 0 or less, remove the smartwatch from the database
-                    _context.Smartwatches.Remove(smartwatch);
-                }
-                else
-                {
-                    // If stock is still above 0, just update it
-                    _context.Entry(smartwatch).State = EntityState.Modified;
-                }
-
+                _context.Smartwatches.Remove(smartwatch);
                 await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Smartwatch deleted successfully!";
             }
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Manage");
         }
     }
 }

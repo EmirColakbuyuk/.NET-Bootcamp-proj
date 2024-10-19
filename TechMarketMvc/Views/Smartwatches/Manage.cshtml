@@ -1,0 +1,40 @@
+@model IEnumerable<TechMarketMvc.Models.Smartwatch>
+
+<h2>Manage Smartwatches</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Battery Life (hrs)</th>
+            <th>GPS</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var smartwatch in Model)
+        {
+            <tr>
+                <td>@smartwatch.Name</td>
+                <td>@smartwatch.Brand</td>
+                <td>@smartwatch.BatteryLife</td>
+                <td>@(smartwatch.HasGPS ? "Yes" : "No")</td>
+                <td>@smartwatch.Price</td>
+                <td>@smartwatch.Stock</td>
+                <td>
+                    <a class="btn btn-primary" href="@Url.Action("Edit", "Smartwatches", new { id = smartwatch.Id })">Edit</a>
+                    <form method="post" action="@Url.Action("Delete", "Smartwatches", new { id = smartwatch.Id })" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this smartwatch?');">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-success" href="@Url.Action("Add", "Smartwatches")">Add New Smartwatch</a>
+<a class="btn btn-secondary" href="@Url.Action("Dashboard", "Admin")">Return to Admin Dashboard</a>

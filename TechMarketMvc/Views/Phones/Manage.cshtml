@@ -1,0 +1,41 @@
+@model IEnumerable<TechMarketMvc.Models.Phone>
+
+<h2>Manage Phones</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Operating System</th>
+            <th>RAM</th>
+            <th>Storage</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var phone in Model)
+        {
+            <tr>
+                <td>@phone.Name</td>
+                <td>@phone.Brand</td>
+                <td>@phone.OperatingSystem</td>
+                <td>@phone.RAM</td>
+                <td>@phone.Storage</td>
+                <td>@phone.Price</td>
+                <td>@phone.Stock</td>
+                <td>
+                    <a class="btn btn-primary" href="@Url.Action("Edit", "Phones", new { id = phone.Id })">Edit</a>
+                    <form method="post" action="@Url.Action("Delete", "Phones", new { id = phone.Id })" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this phone?');">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-success" href="@Url.Action("Add", "Phones")">Add New Phone</a>
