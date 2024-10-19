@@ -5,6 +5,7 @@
 <table class="table">
     <thead>
         <tr>
+            <th>Image</th>
             <th>Name</th>
             <th>Brand</th>
             <th>Battery Life (hrs)</th>
@@ -18,6 +19,9 @@
         @foreach (var smartwatch in Model)
         {
             <tr>
+                <td>
+                    <img src="@Url.Content(smartwatch.ImagePath)" alt="@smartwatch.Name" style="width: 100px; height: auto;" />
+                </td>
                 <td>@smartwatch.Name</td>
                 <td>@smartwatch.Brand</td>
                 <td>@smartwatch.BatteryLife</td>
@@ -37,4 +41,4 @@
 </table>
 
 <a class="btn btn-success" href="@Url.Action("Add", "Smartwatches")">Add New Smartwatch</a>
-<a class="btn btn-secondary" href="@Url.Action("Dashboard", "Admin")">Return to Admin Dashboard</a>
+<a class="btn btn-secondary" href="@Url.Action("Index", "Admin")">Return to Admin Dashboard</a> <!-- Redirects to Admin Dashboard -->

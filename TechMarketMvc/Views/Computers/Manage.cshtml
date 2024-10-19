@@ -5,6 +5,7 @@
 <table class="table">
     <thead>
         <tr>
+            <th>Image</th>
             <th>Name</th>
             <th>Brand</th>
             <th>Processor</th>
@@ -19,6 +20,9 @@
         @foreach (var computer in Model)
         {
             <tr>
+                <td>
+                    <img src="@Url.Content(computer.ImagePath)" alt="@computer.Name" style="width: 100px; height: auto;" />
+                </td>
                 <td>@computer.Name</td>
                 <td>@computer.Brand</td>
                 <td>@computer.Processor</td>
@@ -32,8 +36,6 @@
                         @Html.AntiForgeryToken()
                         <button type="submit" class="btn btn-danger">Delete</button>
                     </form>
-
-
                 </td>
             </tr>
         }
@@ -41,3 +43,4 @@
 </table>
 
 <a class="btn btn-success" href="@Url.Action("Add", "Computers")">Add New Computer</a>
+<a class="btn btn-secondary" href="@Url.Action("Index", "Admin")">Return to Admin Dashboard</a> <!-- Redirects to Admin Dashboard -->

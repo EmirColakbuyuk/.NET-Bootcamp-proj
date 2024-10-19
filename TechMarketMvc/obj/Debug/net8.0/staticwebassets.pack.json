@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\1894a2dd-f4e8-471e-afd1-11058ecf7e2a.jpg",
+      "PackagePath": "staticwebassets\\images\\1894a2dd-f4e8-471e-afd1-11058ecf7e2a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\d9238c65-e937-4f2b-9a9e-652b8cdd0bd9.jpg",
+      "PackagePath": "staticwebassets\\images\\d9238c65-e937-4f2b-9a9e-652b8cdd0bd9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\lenovo-thinkbook-16-g6-abp-21kk001gtr-ryzen-5-7530u-8-gb-256-gb-ssd-radeon-graphics-16-wuxga-notebook.avif",
+      "PackagePath": "staticwebassets\\images\\lenovo-thinkbook-16-g6-abp-21kk001gtr-ryzen-5-7530u-8-gb-256-gb-ssd-radeon-graphics-16-wuxga-notebook.avif"
+    },
+    {
       "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

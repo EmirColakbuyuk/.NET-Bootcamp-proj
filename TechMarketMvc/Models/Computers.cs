@@ -25,13 +25,16 @@ namespace TechMarketMvc.Models
         public decimal Price { get; set; }
 
         [Required]
-        public string Category { get; set; } = "Computer";  
+        public string Category { get; set; } = "Computer";
 
         [MaxLength(500)]
-        public string Description { get; set; } = string.Empty;  
+        public string Description { get; set; } = string.Empty;
 
         [Required]
         [Range(0, int.MaxValue, ErrorMessage = "Stock must be a non-negative number")]
-        public int Stock { get; set; }  
+        public int Stock { get; set; }
+
+        [Required]
+        public string ImagePath { get; set; } = string.Empty;  // Path to the static image
     }
 }

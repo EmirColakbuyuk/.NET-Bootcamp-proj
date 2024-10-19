@@ -45,32 +45,76 @@ namespace TechMarketMvc.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Add(Computer computer)
+        public async Task<IActionResult> Add(Computer computer, IFormFile imageFile)
         {
-            if (ModelState.IsValid)
-            {
-                var existingComputer = await _context.Computers
-                    .FirstOrDefaultAsync(c => c.Name == computer.Name && c.Brand == computer.Brand 
-                                            && c.Processor == computer.Processor 
-                                            && c.RAM == computer.RAM 
-                                            && c.Storage == computer.Storage);
+            var allowedExtensions = new[] { ".jpg", ".png", ".jpeg" };
 
-                if (existingComputer != null)
+            try
+            {
+                if (imageFile != null && imageFile.Length > 0)
                 {
-                    existingComputer.Stock += computer.Stock;
-                    _context.Entry(existingComputer).State = EntityState.Modified;
+                    var extension = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
+                    if (!allowedExtensions.Contains(extension))
+                    {
+                        ModelState.AddModelError("", "Please select a valid image type (JPG, PNG, JPEG).");
+                    }
+                    else
+                    {
+                        var randomFileName = Guid.NewGuid().ToString() + extension; // Generate a random file name
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomFileName);
+
+                        // Ensure the images directory exists
+                        if (!Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images")))
+                        {
+                            Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images"));
+                        }
+
+                        using (var stream = new FileStream(path, FileMode.Create))
+                        {
+                            await imageFile.CopyToAsync(stream); // Save the image to the specified path
+                        }
+                        computer.ImagePath = $"/images/{randomFileName}"; // Set the image path
+                    }
                 }
                 else
                 {
-                    _context.Computers.Add(computer);
+                    ModelState.AddModelError("", "Please select an image!"); // Add error if no image selected
                 }
 
-                await _context.SaveChangesAsync();
-                TempData["SuccessMessage"] = "Computer added successfully!";
-                return RedirectToAction("Manage");
+                // Check model state
+                if (ModelState.IsValid)
+                {
+                    var existingComputer = await _context.Computers
+                        .FirstOrDefaultAsync(c => c.Name == computer.Name && c.Brand == computer.Brand 
+                                                && c.Processor == computer.Processor 
+                                                && c.RAM == computer.RAM 
+                                                && c.Storage == computer.Storage);
+
+                    if (existingComputer != null)
+                    {
+                        existingComputer.Stock += computer.Stock;
+                        _context.Entry(existingComputer).State = EntityState.Modified;
+                    }
+                    else
+                    {
+                        _context.Computers.Add(computer);
+                    }
+
+                    await _context.SaveChangesAsync();
+                    TempData["SuccessMessage"] = "Computer added successfully!";
+                    return RedirectToAction("Manage");
+                }
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                ModelState.AddModelError("", "An error occurred while adding the computer. Please try again.");
+            }
+
+            // Return the view with the current model if there are validation errors or an exception occurred
             return View(computer);
         }
+
 
         // GET: /Computers/Edit/5
         public async Task<IActionResult> Edit(int id)

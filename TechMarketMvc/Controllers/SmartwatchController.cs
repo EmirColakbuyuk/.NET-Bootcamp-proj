@@ -45,30 +45,28 @@ namespace TechMarketMvc.Controllers
         // POST: /Smartwatches/Add
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Add(Smartwatch smartwatch)
+        public async Task<IActionResult> Add(Smartwatch smartwatch, IFormFile imageFile)
         {
             if (ModelState.IsValid)
             {
-                var existingSmartwatch = await _context.Smartwatches
-                    .FirstOrDefaultAsync(s => s.Name == smartwatch.Name && s.Brand == smartwatch.Brand 
-                                              && s.HasGPS == smartwatch.HasGPS);
-
-                if (existingSmartwatch != null)
+                if (imageFile != null && imageFile.Length > 0)
                 {
-                    existingSmartwatch.Stock += smartwatch.Stock;
-                    _context.Entry(existingSmartwatch).State = EntityState.Modified;
-                }
-                else
-                {
-                    _context.Smartwatches.Add(smartwatch);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await imageFile.CopyToAsync(stream);
+                    }
+                    smartwatch.ImagePath = $"/images/{imageFile.FileName}";
                 }
 
+                // Existing logic...
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Smartwatch added successfully!";
                 return RedirectToAction("Manage");
             }
             return View(smartwatch);
         }
+
 
         // GET: /Smartwatches/Edit/5
         public async Task<IActionResult> Edit(int id)

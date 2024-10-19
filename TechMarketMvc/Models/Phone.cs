@@ -28,13 +28,16 @@ namespace TechMarketMvc.Models
         public string ScreenSize { get; set; } = string.Empty;
 
         [Required]
-        public string Category { get; set; } = "Phone";  
+        public string Category { get; set; } = "Phone";
 
         [MaxLength(500)]
-        public string Description { get; set; } = string.Empty;  
+        public string Description { get; set; } = string.Empty;
 
         [Required]
         [Range(0, int.MaxValue, ErrorMessage = "Stock must be a non-negative number")]
-        public int Stock { get; set; }  
+        public int Stock { get; set; }
+
+        [Required]
+        public string ImagePath { get; set; } = string.Empty;  // Path to the static image
     }
 }

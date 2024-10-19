@@ -54,38 +54,28 @@ namespace TechMarketMvc.Controllers
         // POST: /Phones/Add
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Add(Phone phone)
+        public async Task<IActionResult> Add(Phone phone, IFormFile imageFile)
         {
             if (ModelState.IsValid)
             {
-                Console.WriteLine("Model is valid, checking for existing phone.");
-                var existingPhone = await _context.Phones
-                    .FirstOrDefaultAsync(p => p.Name == phone.Name && p.Brand == phone.Brand 
-                                              && p.OperatingSystem == phone.OperatingSystem 
-                                              && p.RAM == phone.RAM 
-                                              && p.Storage == phone.Storage);
-
-                if (existingPhone != null)
+                if (imageFile != null && imageFile.Length > 0)
                 {
-                    Console.WriteLine($"Phone exists. Updating stock for {existingPhone.Name}.");
-                    existingPhone.Stock += phone.Stock;
-                    _context.Entry(existingPhone).State = EntityState.Modified;
-                }
-                else
-                {
-                    Console.WriteLine($"Adding new phone: {phone.Name}.");
-                    _context.Phones.Add(phone);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await imageFile.CopyToAsync(stream);
+                    }
+                    phone.ImagePath = $"/images/{imageFile.FileName}";
                 }
 
+                // Existing logic...
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Phone added successfully!";
-                Console.WriteLine("Phone added successfully. Redirecting to Manage page.");
                 return RedirectToAction("Manage");
             }
-
-            Console.WriteLine("Model is invalid, returning to Add page.");
             return View(phone);
         }
+
 
         // GET: /Phones/Edit/5
         public async Task<IActionResult> Edit(int id)

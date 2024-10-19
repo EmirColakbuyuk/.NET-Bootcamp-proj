@@ -5,6 +5,7 @@
 <table class="table">
     <thead>
         <tr>
+            <th>Image</th> 
             <th>Name</th>
             <th>Brand</th>
             <th>Operating System</th>
@@ -19,6 +20,9 @@
         @foreach (var phone in Model)
         {
             <tr>
+                <td>
+                    <img src="@Url.Content(phone.ImagePath)" alt="@phone.Name" style="width: 100px; height: auto;" />
+                </td>
                 <td>@phone.Name</td>
                 <td>@phone.Brand</td>
                 <td>@phone.OperatingSystem</td>
@@ -39,3 +43,4 @@
 </table>
 
 <a class="btn btn-success" href="@Url.Action("Add", "Phones")">Add New Phone</a>
+<a class="btn btn-secondary" href="@Url.Action("Index", "Admin")">Return to Admin Dashboard</a> <!-- Redirects to Admin Dashboard -->
