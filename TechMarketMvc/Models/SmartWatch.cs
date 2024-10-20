@@ -31,6 +31,6 @@ namespace TechMarketMvc.Models
         [Range(0, int.MaxValue, ErrorMessage = "Stock must be a non-negative number")]
         public int Stock { get; set; }  
 
-        public string ImagePath { get; set; } = string.Empty;  // Path to the static image
+        public string ImagePath { get; set; } = string.Empty;  
     }
 }

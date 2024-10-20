@@ -111,7 +111,7 @@ namespace TechMarketMvc.Controllers
                 return BadRequest();
             }
 
-            // Fetch the existing smartwatch entry from the database
+            
             var existingSmartwatch = await _context.Smartwatches.AsNoTracking().FirstOrDefaultAsync(s => s.Id == id);
 
             if (existingSmartwatch == null)

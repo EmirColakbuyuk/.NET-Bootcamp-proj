@@ -19,12 +19,12 @@ namespace TechMarketMvc.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Seed an admin user (Note: Passwords should be hashed in production)
+            // Seed an admin user 
             modelBuilder.Entity<User>().HasData(new User
             {
                 Id = 1,
                 Username = "admin",
-                Password = "admin123",  // Store a hashed password in a real-world application
+                Password = "admin123",  
                 Role = "Admin"
             });
         }
