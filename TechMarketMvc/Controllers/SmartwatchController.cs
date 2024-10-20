@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TechMarketMvc.Data;
 using TechMarketMvc.Models;
+using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace TechMarketMvc.Controllers
@@ -25,8 +27,7 @@ namespace TechMarketMvc.Controllers
         // GET: /Smartwatches/Manage
         public async Task<IActionResult> Manage(string searchString)
         {
-            var smartwatches = from s in _context.Smartwatches
-                               select s;
+            var smartwatches = from s in _context.Smartwatches select s;
 
             if (!string.IsNullOrEmpty(searchString))
             {
@@ -47,26 +48,47 @@ namespace TechMarketMvc.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Add(Smartwatch smartwatch, IFormFile imageFile)
         {
-            if (ModelState.IsValid)
+            var allowedExtensions = new[] { ".jpg", ".png", ".jpeg" };
+
+            if (imageFile != null && imageFile.Length > 0)
             {
-                if (imageFile != null && imageFile.Length > 0)
+                var extension = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
+                if (!allowedExtensions.Contains(extension))
                 {
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
-                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    ModelState.AddModelError("", "Please select a valid image type (JPG, PNG, JPEG).");
+                }
+                else
+                {
+                    var randomFileName = Guid.NewGuid().ToString() + extension;
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomFileName);
+
+                    if (!Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images")))
+                    {
+                        Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images"));
+                    }
+
+                    using (var stream = new FileStream(path, FileMode.Create))
                     {
                         await imageFile.CopyToAsync(stream);
                     }
-                    smartwatch.ImagePath = $"/images/{imageFile.FileName}";
+                    smartwatch.ImagePath = $"/images/{randomFileName}";
                 }
+            }
+            else
+            {
+                ModelState.AddModelError("", "Please select an image!");
+            }
 
-                // Existing logic...
+            if (ModelState.IsValid)
+            {
+                _context.Smartwatches.Add(smartwatch);
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Smartwatch added successfully!";
                 return RedirectToAction("Manage");
             }
+
             return View(smartwatch);
         }
-
 
         // GET: /Smartwatches/Edit/5
         public async Task<IActionResult> Edit(int id)
@@ -76,17 +98,44 @@ namespace TechMarketMvc.Controllers
             {
                 return NotFound();
             }
-            return View(smartwatch); 
+            return View(smartwatch);
         }
 
         // POST: /Smartwatches/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Smartwatch smartwatch)
+        public async Task<IActionResult> Edit(int id, Smartwatch smartwatch, IFormFile imageFile)
         {
             if (id != smartwatch.Id)
             {
                 return BadRequest();
+            }
+
+            var allowedExtensions = new[] { ".jpg", ".png", ".jpeg" };
+
+            if (imageFile != null && imageFile.Length > 0)
+            {
+                var extension = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
+                if (!allowedExtensions.Contains(extension))
+                {
+                    ModelState.AddModelError("", "Please select a valid image type (JPG, PNG, JPEG).");
+                }
+                else
+                {
+                    var randomFileName = Guid.NewGuid().ToString() + extension;
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomFileName);
+
+                    if (!Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images")))
+                    {
+                        Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images"));
+                    }
+
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await imageFile.CopyToAsync(stream);
+                    }
+                    smartwatch.ImagePath = $"/images/{randomFileName}";
+                }
             }
 
             if (ModelState.IsValid)
@@ -96,6 +145,7 @@ namespace TechMarketMvc.Controllers
                 TempData["SuccessMessage"] = "Smartwatch updated successfully!";
                 return RedirectToAction("Manage");
             }
+
             return View(smartwatch);
         }
 
@@ -107,7 +157,7 @@ namespace TechMarketMvc.Controllers
             {
                 return NotFound();
             }
-            return View(smartwatch); 
+            return View(smartwatch);
         }
 
         // POST: /Smartwatches/Delete/5

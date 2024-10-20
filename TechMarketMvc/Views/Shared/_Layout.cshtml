@@ -6,8 +6,9 @@
     <title>@ViewData["Title"] - TechMarket</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ADD8E6;"> <!-- Light blue color -->
         <a class="navbar-brand" href="/">TechMarket</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,22 +34,23 @@
         </div>
     </nav>
 
-
-    <div class="container mt-4">
+    <!-- Main Content Container -->
+    <div class="container mt-4 flex-grow-1">
         @RenderBody()
     </div>
 
+    <!-- Footer -->
     <footer class="footer mt-auto py-3 bg-light">
         <div class="container">
             <span class="text-muted">&copy; 2024 TechMarket</span>
         </div>
     </footer>
+
 </body>
+
+<!-- External JS Libraries -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
 
 </html>

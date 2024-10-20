@@ -51,6 +51,7 @@ namespace TechMarketMvc.Controllers
 
             try
             {
+                // Validate image file
                 if (imageFile != null && imageFile.Length > 0)
                 {
                     var extension = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
@@ -93,6 +94,7 @@ namespace TechMarketMvc.Controllers
                     if (existingComputer != null)
                     {
                         existingComputer.Stock += computer.Stock;
+                        existingComputer.ImagePath = computer.ImagePath; // Update the image path in the database
                         _context.Entry(existingComputer).State = EntityState.Modified;
                     }
                     else
@@ -104,6 +106,14 @@ namespace TechMarketMvc.Controllers
                     TempData["SuccessMessage"] = "Computer added successfully!";
                     return RedirectToAction("Manage");
                 }
+                else
+                {
+                    // Log model state errors for debugging
+                    foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        Console.WriteLine(error.ErrorMessage);
+                    }
+                }
             }
             catch (Exception ex)
             {
@@ -114,6 +124,8 @@ namespace TechMarketMvc.Controllers
             // Return the view with the current model if there are validation errors or an exception occurred
             return View(computer);
         }
+
+
 
 
         // GET: /Computers/Edit/5
@@ -130,22 +142,61 @@ namespace TechMarketMvc.Controllers
         // POST: /Computers/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Computer computer)
+        public async Task<IActionResult> Edit(int id, Computer computer, IFormFile imageFile)
         {
             if (id != computer.Id)
             {
                 return BadRequest();
             }
 
-            if (ModelState.IsValid)
+            var allowedExtensions = new[] { ".jpg", ".png", ".jpeg" };
+
+            try
             {
-                _context.Entry(computer).State = EntityState.Modified;
-                await _context.SaveChangesAsync();
-                TempData["SuccessMessage"] = "Computer updated successfully!";
-                return RedirectToAction(nameof(Manage));
+                // If a new image file is uploaded, process it
+                if (imageFile != null && imageFile.Length > 0)
+                {
+                    var extension = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
+                    if (!allowedExtensions.Contains(extension))
+                    {
+                        ModelState.AddModelError("", "Please select a valid image type (JPG, PNG, JPEG).");
+                    }
+                    else
+                    {
+                        var randomFileName = Guid.NewGuid().ToString() + extension; // Generate a random file name
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomFileName);
+
+                        // Ensure the images directory exists
+                        if (!Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images")))
+                        {
+                            Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images"));
+                        }
+
+                        using (var stream = new FileStream(path, FileMode.Create))
+                        {
+                            await imageFile.CopyToAsync(stream); // Save the image to the specified path
+                        }
+                        computer.ImagePath = $"/images/{randomFileName}"; // Set the image path
+                    }
+                }
+
+                if (ModelState.IsValid)
+                {
+                    _context.Entry(computer).State = EntityState.Modified;
+                    await _context.SaveChangesAsync();
+                    TempData["SuccessMessage"] = "Computer updated successfully!";
+                    return RedirectToAction(nameof(Manage));
+                }
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                ModelState.AddModelError("", "An error occurred while updating the computer. Please try again.");
+            }
+
             return View(computer);
         }
+
 
         
        // DELETE: /Computers/Delete/{id}

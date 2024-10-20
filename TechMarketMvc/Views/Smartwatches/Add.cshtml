@@ -6,7 +6,7 @@
 
 <h2>Add a New Smartwatch</h2>
 
-<form asp-action="Add" method="post">
+<form asp-action="Add" method="post" enctype="multipart/form-data">
     <div class="form-group">
         <label asp-for="Name"></label>
         <input asp-for="Name" class="form-control" />
@@ -27,7 +27,8 @@
 
     <div class="form-group">
         <label asp-for="HasGPS"></label>
-        <input asp-for="HasGPS" type="checkbox" />
+        <input asp-for="HasGPS" class="form-control" type="checkbox" />
+        <span asp-validation-for="HasGPS" class="text-danger"></span>
     </div>
 
     <div class="form-group">
@@ -49,11 +50,9 @@
     </div>
 
     <div class="form-group">
-        <label asp-for="ImagePath">Image Path</label>
-        <input asp-for="ImagePath" class="form-control" />
-        <span asp-validation-for="ImagePath" class="text-danger"></span>
+        <label>Upload Image</label>
+        <input type="file" name="imageFile" class="form-control" required />
     </div>
 
     <button type="submit" class="btn btn-primary">Add Smartwatch</button>
-    <a class="btn btn-secondary" href="@Url.Action("Manage", "Smartwatches")">Return to Manage Page</a>
 </form>

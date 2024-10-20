@@ -1,7 +1,4 @@
 /* _content/TechMarketMvc/Views/Shared/_Layout.cshtml.rz.scp.css */
-/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
 a.navbar-brand[b-7v8tgf4nyi] {
   white-space: normal;
   text-align: center;
@@ -41,9 +38,9 @@ button.accept-policy[b-7v8tgf4nyi] {
 }
 
 .footer[b-7v8tgf4nyi] {
-  position: absolute;
-  bottom: 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e5e5e5;
+  padding: 10px 0;
+  text-align: center;
   width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
 }

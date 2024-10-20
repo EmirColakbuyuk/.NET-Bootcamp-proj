@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TechMarketMvc.Data;
 using TechMarketMvc.Models;
+using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace TechMarketMvc.Controllers
@@ -26,17 +28,12 @@ namespace TechMarketMvc.Controllers
         // GET: /Phones/Manage
         public async Task<IActionResult> Manage(string searchString)
         {
-            var phones = from p in _context.Phones
-                         select p;
+            var phones = from p in _context.Phones select p;
 
             if (!string.IsNullOrEmpty(searchString))
             {
                 phones = phones.Where(s => s.Name.Contains(searchString) || s.Brand.Contains(searchString));
                 Console.WriteLine($"Filtered phones with search string: {searchString}");
-            }
-            else
-            {
-                Console.WriteLine("No search string provided; fetching all phones.");
             }
 
             var result = await phones.ToListAsync();
@@ -47,7 +44,6 @@ namespace TechMarketMvc.Controllers
         // GET: /Phones/Add
         public IActionResult Add()
         {
-            Console.WriteLine("Navigated to Add Phone page.");
             return View();
         }
 
@@ -56,26 +52,47 @@ namespace TechMarketMvc.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Add(Phone phone, IFormFile imageFile)
         {
-            if (ModelState.IsValid)
+            var allowedExtensions = new[] { ".jpg", ".png", ".jpeg" };
+
+            if (imageFile != null && imageFile.Length > 0)
             {
-                if (imageFile != null && imageFile.Length > 0)
+                var extension = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
+                if (!allowedExtensions.Contains(extension))
                 {
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
-                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    ModelState.AddModelError("", "Please select a valid image type (JPG, PNG, JPEG).");
+                }
+                else
+                {
+                    var randomFileName = Guid.NewGuid().ToString() + extension;
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomFileName);
+
+                    if (!Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images")))
+                    {
+                        Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images"));
+                    }
+
+                    using (var stream = new FileStream(path, FileMode.Create))
                     {
                         await imageFile.CopyToAsync(stream);
                     }
-                    phone.ImagePath = $"/images/{imageFile.FileName}";
+                    phone.ImagePath = $"/images/{randomFileName}";
                 }
+            }
+            else
+            {
+                ModelState.AddModelError("", "Please select an image!");
+            }
 
-                // Existing logic...
+            if (ModelState.IsValid)
+            {
+                _context.Phones.Add(phone);
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Phone added successfully!";
                 return RedirectToAction("Manage");
             }
+
             return View(phone);
         }
-
 
         // GET: /Phones/Edit/5
         public async Task<IActionResult> Edit(int id)
@@ -83,58 +100,71 @@ namespace TechMarketMvc.Controllers
             var phone = await _context.Phones.FindAsync(id);
             if (phone == null)
             {
-                Console.WriteLine($"Phone with ID {id} not found.");
                 return NotFound();
             }
-
-            Console.WriteLine($"Navigated to Edit page for phone: {phone.Name}");
-            return View(phone); 
+            return View(phone);
         }
 
         // POST: /Phones/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Phone phone)
+        public async Task<IActionResult> Edit(int id, Phone phone, IFormFile imageFile)
         {
             if (id != phone.Id)
             {
-                Console.WriteLine("ID mismatch in Edit method.");
                 return BadRequest();
+            }
+
+            var allowedExtensions = new[] { ".jpg", ".png", ".jpeg" };
+
+            if (imageFile != null && imageFile.Length > 0)
+            {
+                var extension = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
+                if (!allowedExtensions.Contains(extension))
+                {
+                    ModelState.AddModelError("", "Please select a valid image type (JPG, PNG, JPEG).");
+                }
+                else
+                {
+                    var randomFileName = Guid.NewGuid().ToString() + extension;
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomFileName);
+
+                    if (!Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images")))
+                    {
+                        Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images"));
+                    }
+
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await imageFile.CopyToAsync(stream);
+                    }
+                    phone.ImagePath = $"/images/{randomFileName}";
+                }
             }
 
             if (ModelState.IsValid)
             {
-                Console.WriteLine($"Updating phone: {phone.Name}");
                 _context.Entry(phone).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Phone updated successfully!";
-                Console.WriteLine("Phone updated successfully. Redirecting to Manage page.");
                 return RedirectToAction("Manage");
             }
 
-            Console.WriteLine("Model is invalid, returning to Edit page.");
             return View(phone);
         }
 
         // POST: /Phones/Delete/{id}
-        [HttpPost, ActionName("Delete")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
             var phone = await _context.Phones.FindAsync(id);
             if (phone != null)
             {
-                Console.WriteLine($"Deleting phone: {phone.Name}");
                 _context.Phones.Remove(phone);
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Phone deleted successfully!";
-                Console.WriteLine("Phone deleted successfully. Redirecting to Manage page.");
             }
-            else
-            {
-                Console.WriteLine($"Phone with ID {id} not found for deletion.");
-            }
-
             return RedirectToAction("Manage");
         }
     }

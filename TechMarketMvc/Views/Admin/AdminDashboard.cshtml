@@ -2,14 +2,97 @@
     Layout = "~/Views/Shared/_Layout.cshtml";  // Use the shared layout if needed
 }
 
-<h2>Admin Dashboard</h2>
+<h2 class="dashboard-title">Admin Dashboard</h2>
 
-<p>Welcome, @TempData["Username"]!</p>
+<p class="welcome-message">Welcome, @TempData["Username"]!</p>
 
-<div>
-    <ul>
-        <li><a href="/Computers/Manage" class="btn btn-primary">Manage Computers</a></li>
-        <li><a href="/Phones/Manage" class="btn btn-primary">Manage Phones</a></li>
-        <li><a href="/Smartwatches/Manage" class="btn btn-primary">Manage Smartwatches</a></li>
+<div class="dashboard-container">
+    <ul class="dashboard-menu">
+        <li>
+            <a href="/Computers/Manage" class="dashboard-btn">Manage Computers</a>
+        </li>
+        <li>
+            <a href="/Phones/Manage" class="dashboard-btn">Manage Phones</a>
+        </li>
+        <li>
+            <a href="/Smartwatches/Manage" class="dashboard-btn">Manage Smartwatches</a>
+        </li>
     </ul>
 </div>
+
+<style>
+    /* Admin Dashboard Styles */
+
+    /* Overall container */
+    .dashboard-container {
+        max-width: 700px;
+        margin: 40px auto;
+        padding: 25px;
+        background-color: #f4f4f4;
+        border-radius: 12px;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+
+    /* Title Styling */
+    .dashboard-title {
+        font-size: 2.2rem;
+        color: #444;
+        margin-bottom: 25px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    /* Welcome message */
+    .welcome-message {
+        font-size: 1.1rem;
+        color: #666;
+        margin-bottom: 30px;
+        font-style: italic;
+    }
+
+    /* Menu styling */
+    .dashboard-menu {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .dashboard-menu li {
+        display: block;
+    }
+
+    /* Button styling */
+    .dashboard-btn {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 0.95rem;
+        color: #fff;
+        background-color: #007bff;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08);
+        width: 200px;
+        margin: 0 auto;
+        font-weight: 500;
+    }
+
+    .dashboard-btn:hover {
+        background-color: #00b32a;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .dashboard-btn:active {
+        background-color: #007f0f;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Additional styling for hover and button spacing */
+    .dashboard-menu li + li {
+        margin-top: 8px;
+    }
+</style>
