@@ -19,7 +19,7 @@ namespace TechMarketMvc.Controllers
         [HttpGet]
         public IActionResult Login()
         {
-            return View("~/Views/Admin/Login.cshtml");  // Pointing to Admin folder login view
+            return View("~/Views/Admin/Login.cshtml");  
         }
 
         // POST: /Admin/Login
@@ -33,7 +33,7 @@ namespace TechMarketMvc.Controllers
                 {
                     if (user.Role == "Admin")
                     {
-                        // Set authentication cookie or session (basic login for now)
+                        // Set authentication cookie or session
                         TempData["Username"] = user.Username;
                         TempData["Role"] = user.Role;
 

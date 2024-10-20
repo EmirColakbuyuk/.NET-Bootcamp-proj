@@ -1,0 +1,81 @@
+@model IEnumerable<TechMarketMvc.Models.Smartwatch>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Our Smartwatches</h2>
+
+    <!-- Filter Input -->
+    <div class="form-group">
+        <input type="text" id="filterInput" class="form-control" placeholder="Search for smartwatches...">
+    </div>
+
+    <!-- Smartwatches Table -->
+    <table class="table table-bordered table-striped" id="smartwatchesTable">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Image</th>
+                <th scope="col">Name</th>
+                <th scope="col">Brand</th>
+                <th scope="col">GPS</th>
+                <th scope="col">Battery Life</th>
+                <th scope="col">Price</th>
+                <th scope="col">Stock</th>
+                <th scope="col">Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var smartwatch in Model)
+            {
+                <tr>
+                    <td><img src="@Url.Content(smartwatch.ImagePath)" alt="@smartwatch.Name" class="img-thumbnail" style="width: 100px; height: auto;" /></td>
+                    <td>@smartwatch.Name</td>
+                    <td>@smartwatch.Brand</td>
+                    <td>@smartwatch.HasGPS</td>
+                    <td>@smartwatch.BatteryLife mAh</td>
+                    <td>$@smartwatch.Price</td>
+                    <td>@smartwatch.Stock</td>
+                    <td>
+                        <a href="@Url.Action("SmartwatchDetails", "Home", new { id = smartwatch.Id })" class="btn btn-primary btn-sm">View</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Filter Script -->
+<script>
+    document.getElementById('filterInput').addEventListener('keyup', function () {
+        var value = this.value.toLowerCase();
+        var rows = document.querySelectorAll('#smartwatchesTable tbody tr');
+
+        rows.forEach(function (row) {
+            row.style.display = row.textContent.toLowerCase().includes(value) ? '' : 'none';
+        });
+    });
+</script>
+
+<!-- Additional Styling -->
+<style>
+    .form-group input {
+        margin-bottom: 20px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-thumbnail {
+        max-width: 100px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    th, td {
+        text-align: center;
+        padding: 15px;
+    }
+</style>

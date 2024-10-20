@@ -1,22 +1,27 @@
 ﻿@model TechMarketMvc.ViewModels.ProductViewModel
 
 <div class="container mt-5">
-    <h2 class="text-center mb-4">Our Latest Products</h2>
+    <!-- Title Section -->
+    <div class="text-center mb-5">
+        <h1 class="display-4">Discover Our Latest Products</h1>
+        <p class="lead">Handpicked just for you. Explore the latest trends in tech.</p>
+        <hr class="w-25 mx-auto" />
+    </div>
 
     <!-- Computers Section -->
     <div class="category-section mb-5">
-        <h3 class="text-center mb-4">Latest Computers</h3>
+        <h3 class="text-center section-title mb-4">Latest Computers</h3>
         <div class="row">
             @foreach (var computer in Model.Computers)
             {
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm">
-                        <img src="@Url.Content(computer.ImagePath)" alt="@computer.Name" class="card-img-top" style="height: 200px; object-fit: cover;" />
+                        <img src="@Url.Content(computer.ImagePath)" alt="@computer.Name" class="card-img-top" />
                         <div class="card-body">
                             <h5 class="card-title">@computer.Name</h5>
                             <p class="card-text">
                                 <strong>Brand:</strong> @computer.Brand <br />
-                                <strong>Price:</strong> $@computer.Price
+                                <strong>Price:</strong> @computer.Price TL
                             </p>
                             <a href="@Url.Action("ComputerDetails", "Home", new { id = computer.Id })" class="btn btn-primary btn-block">View Details</a>
                         </div>
@@ -28,18 +33,18 @@
 
     <!-- Phones Section -->
     <div class="category-section mb-5">
-        <h3 class="text-center mb-4">Latest Phones</h3>
+        <h3 class="text-center section-title mb-4">Latest Phones</h3>
         <div class="row">
             @foreach (var phone in Model.Phones)
             {
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm">
-                        <img src="@Url.Content(phone.ImagePath)" alt="@phone.Name" class="card-img-top" style="height: 200px; object-fit: cover;" />
+                        <img src="@Url.Content(phone.ImagePath)" alt="@phone.Name" class="card-img-top" />
                         <div class="card-body">
                             <h5 class="card-title">@phone.Name</h5>
                             <p class="card-text">
                                 <strong>Brand:</strong> @phone.Brand <br />
-                                <strong>Price:</strong> $@phone.Price
+                                <strong>Price:</strong> @phone.Price TL
                             </p>
                             <a href="@Url.Action("PhoneDetails", "Home", new { id = phone.Id })" class="btn btn-primary btn-block">View Details</a>
                         </div>
@@ -50,19 +55,19 @@
     </div>
 
     <!-- Smartwatches Section -->
-    <div class="category-section">
-        <h3 class="text-center mb-4">Latest Smartwatches</h3>
+    <div class="category-section mb-5">
+        <h3 class="text-center section-title mb-4">Latest Smartwatches</h3>
         <div class="row">
             @foreach (var smartwatch in Model.Smartwatches)
             {
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm">
-                        <img src="@Url.Content(smartwatch.ImagePath)" alt="@smartwatch.Name" class="card-img-top" style="height: 200px; object-fit: cover;" />
+                        <img src="@Url.Content(smartwatch.ImagePath)" alt="@smartwatch.Name" class="card-img-top" />
                         <div class="card-body">
                             <h5 class="card-title">@smartwatch.Name</h5>
                             <p class="card-text">
                                 <strong>Brand:</strong> @smartwatch.Brand <br />
-                                <strong>Price:</strong> $@smartwatch.Price
+                                <strong>Price:</strong> @smartwatch.Price TL
                             </p>
                             <a href="@Url.Action("SmartwatchDetails", "Home", new { id = smartwatch.Id })" class="btn btn-primary btn-block">View Details</a>
                         </div>
@@ -75,33 +80,62 @@
 
 <!-- Additional Styling -->
 <style>
-    .category-section {
-        margin-bottom: 50px;
+    /* Title and Section Styling */
+    .display-4 {
+        font-weight: bold;
+        color: #343a40;
     }
 
+    .lead {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        color: #6c757d;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+        font-weight: 600;
+        color: #343a40;
+        position: relative;
+        display: inline-block;
+    }
+
+    .section-title::after {
+        content: '';
+        display: block;
+        width: 100%; /* Dynamic width matching the text */
+        height: 3px;
+        background-color: #007bff;
+        margin: 8px auto 0;
+    }
+
+    /* Card Styling */
     .card {
-        transition: transform 0.2s ease-in-out;
         border: none;
+        transition: transform 0.3s, box-shadow 0.3s;
+        border-radius: 8px;
     }
 
     .card:hover {
         transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 
     .card-img-top {
-        height: 200px;
+        height: 250px;
         object-fit: cover;
-        border-radius: 5px;
+        border-radius: 8px 8px 0 0;
     }
 
     .card-title {
         font-size: 1.25rem;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     .card-text {
         font-size: 1rem;
         margin-bottom: 20px;
+        color: #6c757d;
     }
 
     .btn-primary {
@@ -116,5 +150,9 @@
         border-color: #0056b3;
     }
 
-    
+    /* Custom Container and Spacing */
+    .container {
+        max-width: 1200px;
+    }
+
 </style>

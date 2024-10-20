@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Computers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Computers/Manage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJzXE1hbmFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,6 +70,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Phones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Phones/Manage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmVzXE1hbmFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -84,6 +92,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Smartwatches/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21hcnR3YXRjaGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Smartwatches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21hcnR3YXRjaGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Smartwatches/Manage.cshtml]

@@ -1,0 +1,83 @@
+@model IEnumerable<TechMarketMvc.Models.Computer>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Our Computers</h2>
+
+    <!-- Filter Input -->
+    <div class="form-group">
+        <input type="text" id="filterInput" class="form-control" placeholder="Search for computers...">
+    </div>
+
+    <!-- Computers Table -->
+    <table class="table table-bordered table-striped" id="computersTable">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Image</th>
+                <th scope="col">Name</th>
+                <th scope="col">Brand</th>
+                <th scope="col">Processor</th>
+                <th scope="col">RAM (GB)</th>
+                <th scope="col">Storage</th>
+                <th scope="col">Price</th>
+                <th scope="col">Stock</th>
+                <th scope="col">Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var computer in Model)
+            {
+                <tr>
+                    <td><img src="@Url.Content(computer.ImagePath)" alt="@computer.Name" class="img-thumbnail" style="width: 100px; height: auto;" /></td>
+                    <td>@computer.Name</td>
+                    <td>@computer.Brand</td>
+                    <td>@computer.Processor</td>
+                    <td>@computer.RAM</td>
+                    <td>@computer.Storage GB</td>
+                    <td>$@computer.Price</td>
+                    <td>@computer.Stock</td>
+                    <td>
+                        <a href="@Url.Action("ComputerDetails", "Home", new { id = computer.Id })" class="btn btn-primary btn-sm">View</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Filter Script -->
+<script>
+    document.getElementById('filterInput').addEventListener('keyup', function () {
+        var value = this.value.toLowerCase();
+        var rows = document.querySelectorAll('#computersTable tbody tr');
+
+        rows.forEach(function (row) {
+            row.style.display = row.textContent.toLowerCase().includes(value) ? '' : 'none';
+        });
+    });
+</script>
+
+<!-- Additional Styling -->
+<style>
+    .form-group input {
+        margin-bottom: 20px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-thumbnail {
+        max-width: 100px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    th, td {
+        text-align: center;
+        padding: 15px;
+    }
+</style>
