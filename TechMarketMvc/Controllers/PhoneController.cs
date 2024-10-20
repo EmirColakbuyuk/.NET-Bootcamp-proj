@@ -108,50 +108,46 @@ namespace TechMarketMvc.Controllers
         // POST: /Phones/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Phone phone, IFormFile imageFile)
+        public async Task<IActionResult> Edit(int id, Phone phone)
         {
             if (id != phone.Id)
             {
                 return BadRequest();
             }
 
-            var allowedExtensions = new[] { ".jpg", ".png", ".jpeg" };
+            // Fetch the existing phone entry from the database
+            var existingPhone = await _context.Phones.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
 
-            if (imageFile != null && imageFile.Length > 0)
+            if (existingPhone == null)
             {
-                var extension = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
-                if (!allowedExtensions.Contains(extension))
-                {
-                    ModelState.AddModelError("", "Please select a valid image type (JPG, PNG, JPEG).");
-                }
-                else
-                {
-                    var randomFileName = Guid.NewGuid().ToString() + extension;
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomFileName);
-
-                    if (!Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images")))
-                    {
-                        Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images"));
-                    }
-
-                    using (var stream = new FileStream(path, FileMode.Create))
-                    {
-                        await imageFile.CopyToAsync(stream);
-                    }
-                    phone.ImagePath = $"/images/{randomFileName}";
-                }
+                return NotFound();
             }
 
-            if (ModelState.IsValid)
+            try
             {
-                _context.Entry(phone).State = EntityState.Modified;
-                await _context.SaveChangesAsync();
-                TempData["SuccessMessage"] = "Phone updated successfully!";
-                return RedirectToAction("Manage");
+                // If the ImagePath is not set (null or empty), retain the existing image
+                if (string.IsNullOrEmpty(phone.ImagePath))
+                {
+                    phone.ImagePath = existingPhone.ImagePath;
+                }
+
+                if (ModelState.IsValid)
+                {
+                    _context.Entry(phone).State = EntityState.Modified;
+                    await _context.SaveChangesAsync();
+                    TempData["SuccessMessage"] = "Phone updated successfully!";
+                    return RedirectToAction(nameof(Manage));
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                ModelState.AddModelError("", "An error occurred while updating the phone. Please try again.");
             }
 
             return View(phone);
         }
+
 
         // POST: /Phones/Delete/{id}
         [HttpPost]

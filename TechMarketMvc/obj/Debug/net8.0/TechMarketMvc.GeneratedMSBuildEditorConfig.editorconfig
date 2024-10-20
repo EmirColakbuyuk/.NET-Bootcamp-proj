@@ -9,107 +9,107 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TechMarketMvc
 build_property.RootNamespace = TechMarketMvc
-build_property.ProjectDir = C:\Users\emirc\OneDrive\Desktop\VsCode\.NET-Bootcamp-proj\TechmarketMvc\
+build_property.ProjectDir = C:\Users\emirc\OneDrive\Desktop\VsCode\.NET-Bootcamp-proj\TechMarketMvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\emirc\OneDrive\Desktop\VsCode\.NET-Bootcamp-proj\TechmarketMvc
+build_property.MSBuildProjectDirectory = C:\Users\emirc\OneDrive\Desktop\VsCode\.NET-Bootcamp-proj\TechMarketMvc
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Admin/AdminDashboard.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Admin/AdminDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Admin/Login.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Admin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Computers/Add.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Computers/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJzXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Computers/Edit.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Computers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Computers/Index.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Computers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Computers/Manage.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Computers/Manage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJzXE1hbmFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Home/ComputerDetails.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Home/ComputerDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wdXRlckRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Home/Index.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Home/PhoneDetails.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Home/PhoneDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaG9uZURldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Home/Privacy.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Home/SmartwatchDetails.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Home/SmartwatchDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTbWFydHdhdGNoRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Phones/Add.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Phones/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmVzXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Phones/Edit.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Phones/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Phones/Index.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Phones/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Phones/Manage.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Phones/Manage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmVzXE1hbmFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Shared/Error.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Smartwatches/Add.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Smartwatches/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21hcnR3YXRjaGVzXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Smartwatches/Edit.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Smartwatches/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21hcnR3YXRjaGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Smartwatches/Index.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Smartwatches/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21hcnR3YXRjaGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Smartwatches/Manage.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Smartwatches/Manage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21hcnR3YXRjaGVzXE1hbmFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/_ViewImports.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/_ViewStart.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Shared/_Layout.cshtml]
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechMarketMvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7v8tgf4nyi

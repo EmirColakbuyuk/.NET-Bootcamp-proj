@@ -1,335 +1,355 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechMarketMvc.bundle.scp.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechMarketMvc.bundle.scp.css",
       "PackagePath": "staticwebassets\\TechMarketMvc.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\037fbb4b-7ddb-4b72-84e1-a5d904c22064.jpg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\037fbb4b-7ddb-4b72-84e1-a5d904c22064.jpg",
       "PackagePath": "staticwebassets\\images\\037fbb4b-7ddb-4b72-84e1-a5d904c22064.jpg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\1588eb74-23a8-4cb2-a801-576b174d03d4.jpeg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\1588eb74-23a8-4cb2-a801-576b174d03d4.jpeg",
       "PackagePath": "staticwebassets\\images\\1588eb74-23a8-4cb2-a801-576b174d03d4.jpeg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\1894a2dd-f4e8-471e-afd1-11058ecf7e2a.jpg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\1894a2dd-f4e8-471e-afd1-11058ecf7e2a.jpg",
       "PackagePath": "staticwebassets\\images\\1894a2dd-f4e8-471e-afd1-11058ecf7e2a.jpg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\22c86896-cb32-4b3f-8998-814636504a19.jpeg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\1dbf254d-5776-4f62-9098-3f25a9db21a9.jpeg",
+      "PackagePath": "staticwebassets\\images\\1dbf254d-5776-4f62-9098-3f25a9db21a9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\22c86896-cb32-4b3f-8998-814636504a19.jpeg",
       "PackagePath": "staticwebassets\\images\\22c86896-cb32-4b3f-8998-814636504a19.jpeg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\3296df5e-b3ac-493f-aae7-6f0de700f11f.jpg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\2a7f31ec-bfdb-4a46-b19b-f67570ce5f9a.jpg",
+      "PackagePath": "staticwebassets\\images\\2a7f31ec-bfdb-4a46-b19b-f67570ce5f9a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\3296df5e-b3ac-493f-aae7-6f0de700f11f.jpg",
       "PackagePath": "staticwebassets\\images\\3296df5e-b3ac-493f-aae7-6f0de700f11f.jpg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\3f8e1d26-ce43-46db-8e14-1202c0bbed47.jpeg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\3f8e1d26-ce43-46db-8e14-1202c0bbed47.jpeg",
       "PackagePath": "staticwebassets\\images\\3f8e1d26-ce43-46db-8e14-1202c0bbed47.jpeg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\5918e061-95e9-4efa-b88d-f1053090282d.jpg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\5918e061-95e9-4efa-b88d-f1053090282d.jpg",
       "PackagePath": "staticwebassets\\images\\5918e061-95e9-4efa-b88d-f1053090282d.jpg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\62ca368d-ae1a-4d27-a2c2-caf0eb6f1007.jpeg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\62ca368d-ae1a-4d27-a2c2-caf0eb6f1007.jpeg",
       "PackagePath": "staticwebassets\\images\\62ca368d-ae1a-4d27-a2c2-caf0eb6f1007.jpeg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\66b2f66a-fdbb-4adf-898a-c32a4bd673f4.jpg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\66b2f66a-fdbb-4adf-898a-c32a4bd673f4.jpg",
       "PackagePath": "staticwebassets\\images\\66b2f66a-fdbb-4adf-898a-c32a4bd673f4.jpg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\68210111-f5be-4158-8454-c9f8c01ec931.jpg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\68210111-f5be-4158-8454-c9f8c01ec931.jpg",
       "PackagePath": "staticwebassets\\images\\68210111-f5be-4158-8454-c9f8c01ec931.jpg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\70f04e84-b997-4f6f-a0c0-6b8d248968d6.jpeg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\6f6be8b2-bf24-43c3-a642-fd4af0f71c1a.jpeg",
+      "PackagePath": "staticwebassets\\images\\6f6be8b2-bf24-43c3-a642-fd4af0f71c1a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\70f04e84-b997-4f6f-a0c0-6b8d248968d6.jpeg",
       "PackagePath": "staticwebassets\\images\\70f04e84-b997-4f6f-a0c0-6b8d248968d6.jpeg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\7987618d-d40c-4982-ab92-a07afb000bdc.png",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\7987618d-d40c-4982-ab92-a07afb000bdc.png",
       "PackagePath": "staticwebassets\\images\\7987618d-d40c-4982-ab92-a07afb000bdc.png"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\90098fdc-dc3b-480c-88fa-4aa455fe119b.png",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\90098fdc-dc3b-480c-88fa-4aa455fe119b.png",
       "PackagePath": "staticwebassets\\images\\90098fdc-dc3b-480c-88fa-4aa455fe119b.png"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\96e2f281-d9c1-4a0b-8f76-aa1a9ec7452b.png",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\96e2f281-d9c1-4a0b-8f76-aa1a9ec7452b.png",
       "PackagePath": "staticwebassets\\images\\96e2f281-d9c1-4a0b-8f76-aa1a9ec7452b.png"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\bf092b4a-3500-4a80-887b-47cc7f873d42.jpeg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\bcac223a-e189-401d-96b7-fa21ae2253ec.jpeg",
+      "PackagePath": "staticwebassets\\images\\bcac223a-e189-401d-96b7-fa21ae2253ec.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\bf092b4a-3500-4a80-887b-47cc7f873d42.jpeg",
       "PackagePath": "staticwebassets\\images\\bf092b4a-3500-4a80-887b-47cc7f873d42.jpeg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\c31c46fe-feb0-4368-ba92-70888162b62a.jpg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\c31c46fe-feb0-4368-ba92-70888162b62a.jpg",
       "PackagePath": "staticwebassets\\images\\c31c46fe-feb0-4368-ba92-70888162b62a.jpg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\d85d330c-a86f-41e3-a080-497c3c4c5950.png",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\d85d330c-a86f-41e3-a080-497c3c4c5950.png",
       "PackagePath": "staticwebassets\\images\\d85d330c-a86f-41e3-a080-497c3c4c5950.png"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\d9238c65-e937-4f2b-9a9e-652b8cdd0bd9.jpg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\d9238c65-e937-4f2b-9a9e-652b8cdd0bd9.jpg",
       "PackagePath": "staticwebassets\\images\\d9238c65-e937-4f2b-9a9e-652b8cdd0bd9.jpg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\e51672df-d82e-4170-97da-3b74c9377308.jpeg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\e51672df-d82e-4170-97da-3b74c9377308.jpeg",
       "PackagePath": "staticwebassets\\images\\e51672df-d82e-4170-97da-3b74c9377308.jpeg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\e5260cc1-174c-4a8c-83f1-03ce0bf9ac9c.jpg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\e5260cc1-174c-4a8c-83f1-03ce0bf9ac9c.jpg",
       "PackagePath": "staticwebassets\\images\\e5260cc1-174c-4a8c-83f1-03ce0bf9ac9c.jpg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\fac55fac-7cb9-4ab9-9766-72274dcf439a.jpg",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\eb56c81a-9ec2-4fe2-8af2-8f0cb1e08f4b.jpg",
+      "PackagePath": "staticwebassets\\images\\eb56c81a-9ec2-4fe2-8af2-8f0cb1e08f4b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\fac55fac-7cb9-4ab9-9766-72274dcf439a.jpg",
       "PackagePath": "staticwebassets\\images\\fac55fac-7cb9-4ab9-9766-72274dcf439a.jpg"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\lenovo-thinkbook-16-g6-abp-21kk001gtr-ryzen-5-7530u-8-gb-256-gb-ssd-radeon-graphics-16-wuxga-notebook.avif",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\lenovo-thinkbook-16-g6-abp-21kk001gtr-ryzen-5-7530u-8-gb-256-gb-ssd-radeon-graphics-16-wuxga-notebook.avif",
       "PackagePath": "staticwebassets\\images\\lenovo-thinkbook-16-g6-abp-21kk001gtr-ryzen-5-7530u-8-gb-256-gb-ssd-radeon-graphics-16-wuxga-notebook.avif"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

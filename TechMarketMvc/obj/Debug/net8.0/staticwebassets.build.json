@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jwwZ8F3N2/dj3/13JeYobThywyCCVuMsohMY2JRmtFk=",
+  "Hash": "sH6WMJ+d13EkoYWqi47ydgyF5ybn47vnf0aCZKdq0M0=",
   "Source": "TechMarketMvc",
   "BasePath": "_content/TechMarketMvc",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TechMarketMvc\\wwwroot",
       "Source": "TechMarketMvc",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TechMarketMvc.styles.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TechMarketMvc.styles.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "TechMarketMvc.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TechMarketMvc.styles.css"
+      "OriginalItemSpec": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TechMarketMvc.styles.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechMarketMvc.bundle.scp.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechMarketMvc.bundle.scp.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "TechMarketMvc.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechMarketMvc.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechMarketMvc.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\css\\site.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\favicon.ico",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\037fbb4b-7ddb-4b72-84e1-a5d904c22064.jpg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\037fbb4b-7ddb-4b72-84e1-a5d904c22064.jpg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/037fbb4b-7ddb-4b72-84e1-a5d904c22064.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\037fbb4b-7ddb-4b72-84e1-a5d904c22064.jpg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\1588eb74-23a8-4cb2-a801-576b174d03d4.jpeg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\1588eb74-23a8-4cb2-a801-576b174d03d4.jpeg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/1588eb74-23a8-4cb2-a801-576b174d03d4.jpeg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1588eb74-23a8-4cb2-a801-576b174d03d4.jpeg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\1894a2dd-f4e8-471e-afd1-11058ecf7e2a.jpg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\1894a2dd-f4e8-471e-afd1-11058ecf7e2a.jpg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/1894a2dd-f4e8-471e-afd1-11058ecf7e2a.jpg",
       "AssetKind": "All",
@@ -150,10 +150,29 @@
       "OriginalItemSpec": "wwwroot\\images\\1894a2dd-f4e8-471e-afd1-11058ecf7e2a.jpg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\22c86896-cb32-4b3f-8998-814636504a19.jpeg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\1dbf254d-5776-4f62-9098-3f25a9db21a9.jpeg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
+      "BasePath": "_content/TechMarketMvc",
+      "RelativePath": "images/1dbf254d-5776-4f62-9098-3f25a9db21a9.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1dbf254d-5776-4f62-9098-3f25a9db21a9.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\22c86896-cb32-4b3f-8998-814636504a19.jpeg",
+      "SourceId": "TechMarketMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/22c86896-cb32-4b3f-8998-814636504a19.jpeg",
       "AssetKind": "All",
@@ -169,10 +188,29 @@
       "OriginalItemSpec": "wwwroot\\images\\22c86896-cb32-4b3f-8998-814636504a19.jpeg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\3296df5e-b3ac-493f-aae7-6f0de700f11f.jpg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\2a7f31ec-bfdb-4a46-b19b-f67570ce5f9a.jpg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
+      "BasePath": "_content/TechMarketMvc",
+      "RelativePath": "images/2a7f31ec-bfdb-4a46-b19b-f67570ce5f9a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2a7f31ec-bfdb-4a46-b19b-f67570ce5f9a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\3296df5e-b3ac-493f-aae7-6f0de700f11f.jpg",
+      "SourceId": "TechMarketMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/3296df5e-b3ac-493f-aae7-6f0de700f11f.jpg",
       "AssetKind": "All",
@@ -188,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3296df5e-b3ac-493f-aae7-6f0de700f11f.jpg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\3f8e1d26-ce43-46db-8e14-1202c0bbed47.jpeg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\3f8e1d26-ce43-46db-8e14-1202c0bbed47.jpeg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/3f8e1d26-ce43-46db-8e14-1202c0bbed47.jpeg",
       "AssetKind": "All",
@@ -207,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3f8e1d26-ce43-46db-8e14-1202c0bbed47.jpeg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\5918e061-95e9-4efa-b88d-f1053090282d.jpg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\5918e061-95e9-4efa-b88d-f1053090282d.jpg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/5918e061-95e9-4efa-b88d-f1053090282d.jpg",
       "AssetKind": "All",
@@ -226,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5918e061-95e9-4efa-b88d-f1053090282d.jpg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\62ca368d-ae1a-4d27-a2c2-caf0eb6f1007.jpeg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\62ca368d-ae1a-4d27-a2c2-caf0eb6f1007.jpeg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/62ca368d-ae1a-4d27-a2c2-caf0eb6f1007.jpeg",
       "AssetKind": "All",
@@ -245,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\62ca368d-ae1a-4d27-a2c2-caf0eb6f1007.jpeg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\66b2f66a-fdbb-4adf-898a-c32a4bd673f4.jpg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\66b2f66a-fdbb-4adf-898a-c32a4bd673f4.jpg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/66b2f66a-fdbb-4adf-898a-c32a4bd673f4.jpg",
       "AssetKind": "All",
@@ -264,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\66b2f66a-fdbb-4adf-898a-c32a4bd673f4.jpg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\68210111-f5be-4158-8454-c9f8c01ec931.jpg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\68210111-f5be-4158-8454-c9f8c01ec931.jpg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/68210111-f5be-4158-8454-c9f8c01ec931.jpg",
       "AssetKind": "All",
@@ -283,10 +321,29 @@
       "OriginalItemSpec": "wwwroot\\images\\68210111-f5be-4158-8454-c9f8c01ec931.jpg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\70f04e84-b997-4f6f-a0c0-6b8d248968d6.jpeg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\6f6be8b2-bf24-43c3-a642-fd4af0f71c1a.jpeg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
+      "BasePath": "_content/TechMarketMvc",
+      "RelativePath": "images/6f6be8b2-bf24-43c3-a642-fd4af0f71c1a.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\6f6be8b2-bf24-43c3-a642-fd4af0f71c1a.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\70f04e84-b997-4f6f-a0c0-6b8d248968d6.jpeg",
+      "SourceId": "TechMarketMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/70f04e84-b997-4f6f-a0c0-6b8d248968d6.jpeg",
       "AssetKind": "All",
@@ -302,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\70f04e84-b997-4f6f-a0c0-6b8d248968d6.jpeg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\7987618d-d40c-4982-ab92-a07afb000bdc.png",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\7987618d-d40c-4982-ab92-a07afb000bdc.png",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/7987618d-d40c-4982-ab92-a07afb000bdc.png",
       "AssetKind": "All",
@@ -321,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\7987618d-d40c-4982-ab92-a07afb000bdc.png"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\90098fdc-dc3b-480c-88fa-4aa455fe119b.png",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\90098fdc-dc3b-480c-88fa-4aa455fe119b.png",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/90098fdc-dc3b-480c-88fa-4aa455fe119b.png",
       "AssetKind": "All",
@@ -340,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\90098fdc-dc3b-480c-88fa-4aa455fe119b.png"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\96e2f281-d9c1-4a0b-8f76-aa1a9ec7452b.png",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\96e2f281-d9c1-4a0b-8f76-aa1a9ec7452b.png",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/96e2f281-d9c1-4a0b-8f76-aa1a9ec7452b.png",
       "AssetKind": "All",
@@ -359,10 +416,29 @@
       "OriginalItemSpec": "wwwroot\\images\\96e2f281-d9c1-4a0b-8f76-aa1a9ec7452b.png"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\bf092b4a-3500-4a80-887b-47cc7f873d42.jpeg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\bcac223a-e189-401d-96b7-fa21ae2253ec.jpeg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
+      "BasePath": "_content/TechMarketMvc",
+      "RelativePath": "images/bcac223a-e189-401d-96b7-fa21ae2253ec.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bcac223a-e189-401d-96b7-fa21ae2253ec.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\bf092b4a-3500-4a80-887b-47cc7f873d42.jpeg",
+      "SourceId": "TechMarketMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/bf092b4a-3500-4a80-887b-47cc7f873d42.jpeg",
       "AssetKind": "All",
@@ -378,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bf092b4a-3500-4a80-887b-47cc7f873d42.jpeg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\c31c46fe-feb0-4368-ba92-70888162b62a.jpg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\c31c46fe-feb0-4368-ba92-70888162b62a.jpg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/c31c46fe-feb0-4368-ba92-70888162b62a.jpg",
       "AssetKind": "All",
@@ -397,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\c31c46fe-feb0-4368-ba92-70888162b62a.jpg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\d85d330c-a86f-41e3-a080-497c3c4c5950.png",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\d85d330c-a86f-41e3-a080-497c3c4c5950.png",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/d85d330c-a86f-41e3-a080-497c3c4c5950.png",
       "AssetKind": "All",
@@ -416,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\d85d330c-a86f-41e3-a080-497c3c4c5950.png"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\d9238c65-e937-4f2b-9a9e-652b8cdd0bd9.jpg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\d9238c65-e937-4f2b-9a9e-652b8cdd0bd9.jpg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/d9238c65-e937-4f2b-9a9e-652b8cdd0bd9.jpg",
       "AssetKind": "All",
@@ -435,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\d9238c65-e937-4f2b-9a9e-652b8cdd0bd9.jpg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\e51672df-d82e-4170-97da-3b74c9377308.jpeg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\e51672df-d82e-4170-97da-3b74c9377308.jpeg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/e51672df-d82e-4170-97da-3b74c9377308.jpeg",
       "AssetKind": "All",
@@ -454,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\e51672df-d82e-4170-97da-3b74c9377308.jpeg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\e5260cc1-174c-4a8c-83f1-03ce0bf9ac9c.jpg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\e5260cc1-174c-4a8c-83f1-03ce0bf9ac9c.jpg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/e5260cc1-174c-4a8c-83f1-03ce0bf9ac9c.jpg",
       "AssetKind": "All",
@@ -473,10 +549,29 @@
       "OriginalItemSpec": "wwwroot\\images\\e5260cc1-174c-4a8c-83f1-03ce0bf9ac9c.jpg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\fac55fac-7cb9-4ab9-9766-72274dcf439a.jpg",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\eb56c81a-9ec2-4fe2-8af2-8f0cb1e08f4b.jpg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
+      "BasePath": "_content/TechMarketMvc",
+      "RelativePath": "images/eb56c81a-9ec2-4fe2-8af2-8f0cb1e08f4b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\eb56c81a-9ec2-4fe2-8af2-8f0cb1e08f4b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\fac55fac-7cb9-4ab9-9766-72274dcf439a.jpg",
+      "SourceId": "TechMarketMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/fac55fac-7cb9-4ab9-9766-72274dcf439a.jpg",
       "AssetKind": "All",
@@ -492,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\fac55fac-7cb9-4ab9-9766-72274dcf439a.jpg"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\lenovo-thinkbook-16-g6-abp-21kk001gtr-ryzen-5-7530u-8-gb-256-gb-ssd-radeon-graphics-16-wuxga-notebook.avif",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\images\\lenovo-thinkbook-16-g6-abp-21kk001gtr-ryzen-5-7530u-8-gb-256-gb-ssd-radeon-graphics-16-wuxga-notebook.avif",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "images/lenovo-thinkbook-16-g6-abp-21kk001gtr-ryzen-5-7530u-8-gb-256-gb-ssd-radeon-graphics-16-wuxga-notebook.avif",
       "AssetKind": "All",
@@ -511,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\images\\lenovo-thinkbook-16-g6-abp-21kk001gtr-ryzen-5-7530u-8-gb-256-gb-ssd-radeon-graphics-16-wuxga-notebook.avif"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\js\\site.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -530,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -549,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -568,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -587,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -606,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -625,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -644,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -663,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -682,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -701,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -720,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -739,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -758,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -777,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -796,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -815,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -834,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -853,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -872,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -891,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -910,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -929,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -948,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -967,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -986,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1005,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1024,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1043,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1062,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1081,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1100,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1119,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1138,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1157,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1176,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1195,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1214,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1233,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1252,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1271,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1290,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1309,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1328,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1347,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1366,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1385,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1404,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1423,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1442,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1461,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1480,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1499,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1518,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1537,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1556,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1575,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1594,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechMarketMvc\\wwwroot\\",
       "BasePath": "_content/TechMarketMvc",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

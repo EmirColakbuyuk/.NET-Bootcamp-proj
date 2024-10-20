@@ -6,7 +6,7 @@
 
 <h2>Edit Computer</h2>
 
-<form asp-action="Edit" method="post" enctype="multipart/form-data">
+<form asp-action="Edit" method="post">
     <input type="hidden" asp-for="Id" />
 
     <div class="form-group">
@@ -57,11 +57,11 @@
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
 
-    
-
+    <!-- Display Current Image (no option to change it) -->
     <div class="form-group">
-        <label>Upload New Image (optional)</label>
-        <input type="file" name="imageFile" class="form-control" />
+        <label>Current Image</label>
+        <br />
+        <img src="@Url.Content(Model.ImagePath)" alt="Current Image" style="width: 150px; height: auto; object-fit: cover;" />
     </div>
 
     <button type="submit" class="btn btn-primary">Update Computer</button>

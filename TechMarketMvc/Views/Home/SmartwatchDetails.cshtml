@@ -13,9 +13,9 @@
                 <li class="list-group-item"><strong>Brand:</strong> @Model.Brand</li>
                 <li class="list-group-item"><strong>GPS:</strong> @(Model.HasGPS ? "Yes" : "No")</li>
                 <li class="list-group-item"><strong>Battery Life:</strong> @Model.BatteryLife mAh</li>
-                <li class="list-group-item"><strong>Price:</strong> @Model.Price</li>
                 <li class="list-group-item"><strong>Description:</strong> @Model.Description</li>
                 <li class="list-group-item"><strong>Stock:</strong> @Model.Stock</li>
+                <li class="list-group-item"><strong>Price:</strong> @Model.Price TL</li>
             </ul>
             <div class="mt-4">
                 <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Home</a>

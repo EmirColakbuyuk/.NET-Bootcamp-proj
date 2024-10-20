@@ -104,46 +104,41 @@ namespace TechMarketMvc.Controllers
         // POST: /Smartwatches/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Smartwatch smartwatch, IFormFile imageFile)
+        public async Task<IActionResult> Edit(int id, Smartwatch smartwatch)
         {
             if (id != smartwatch.Id)
             {
                 return BadRequest();
             }
 
-            var allowedExtensions = new[] { ".jpg", ".png", ".jpeg" };
+            // Fetch the existing smartwatch entry from the database
+            var existingSmartwatch = await _context.Smartwatches.AsNoTracking().FirstOrDefaultAsync(s => s.Id == id);
 
-            if (imageFile != null && imageFile.Length > 0)
+            if (existingSmartwatch == null)
             {
-                var extension = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
-                if (!allowedExtensions.Contains(extension))
-                {
-                    ModelState.AddModelError("", "Please select a valid image type (JPG, PNG, JPEG).");
-                }
-                else
-                {
-                    var randomFileName = Guid.NewGuid().ToString() + extension;
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomFileName);
-
-                    if (!Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images")))
-                    {
-                        Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images"));
-                    }
-
-                    using (var stream = new FileStream(path, FileMode.Create))
-                    {
-                        await imageFile.CopyToAsync(stream);
-                    }
-                    smartwatch.ImagePath = $"/images/{randomFileName}";
-                }
+                return NotFound();
             }
 
-            if (ModelState.IsValid)
+            try
             {
-                _context.Entry(smartwatch).State = EntityState.Modified;
-                await _context.SaveChangesAsync();
-                TempData["SuccessMessage"] = "Smartwatch updated successfully!";
-                return RedirectToAction("Manage");
+                // If the ImagePath is not set (null or empty), retain the existing image
+                if (string.IsNullOrEmpty(smartwatch.ImagePath))
+                {
+                    smartwatch.ImagePath = existingSmartwatch.ImagePath;
+                }
+
+                if (ModelState.IsValid)
+                {
+                    _context.Entry(smartwatch).State = EntityState.Modified;
+                    await _context.SaveChangesAsync();
+                    TempData["SuccessMessage"] = "Smartwatch updated successfully!";
+                    return RedirectToAction(nameof(Manage));
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                ModelState.AddModelError("", "An error occurred while updating the smartwatch. Please try again.");
             }
 
             return View(smartwatch);

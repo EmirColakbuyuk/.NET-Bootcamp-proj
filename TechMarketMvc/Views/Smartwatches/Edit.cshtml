@@ -29,7 +29,10 @@
 
     <div class="form-group">
         <label asp-for="HasGPS"></label>
-        <input asp-for="HasGPS" class="form-control" type="checkbox" />
+        <div class="form-check">
+            <input asp-for="HasGPS" class="form-check-input" type="checkbox" />
+            <label class="form-check-label" asp-for="HasGPS">Has GPS</label>
+        </div>
         <span asp-validation-for="HasGPS" class="text-danger"></span>
     </div>
 
@@ -49,11 +52,6 @@
         <label asp-for="Description"></label>
         <textarea asp-for="Description" class="form-control"></textarea>
         <span asp-validation-for="Description" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label>Upload New Image (optional)</label>
-        <input type="file" name="imageFile" class="form-control" />
     </div>
 
     <button type="submit" class="btn btn-primary">Update Smartwatch</button>

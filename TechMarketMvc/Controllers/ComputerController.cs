@@ -86,9 +86,9 @@ namespace TechMarketMvc.Controllers
                 if (ModelState.IsValid)
                 {
                     var existingComputer = await _context.Computers
-                        .FirstOrDefaultAsync(c => c.Name == computer.Name && c.Brand == computer.Brand 
-                                                && c.Processor == computer.Processor 
-                                                && c.RAM == computer.RAM 
+                        .FirstOrDefaultAsync(c => c.Name == computer.Name && c.Brand == computer.Brand
+                                                && c.Processor == computer.Processor
+                                                && c.RAM == computer.RAM
                                                 && c.Storage == computer.Storage);
 
                     if (existingComputer != null)
@@ -125,9 +125,6 @@ namespace TechMarketMvc.Controllers
             return View(computer);
         }
 
-
-
-
         // GET: /Computers/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
@@ -142,42 +139,27 @@ namespace TechMarketMvc.Controllers
         // POST: /Computers/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Computer computer, IFormFile imageFile)
+        public async Task<IActionResult> Edit(int id, Computer computer)
         {
             if (id != computer.Id)
             {
                 return BadRequest();
             }
 
-            var allowedExtensions = new[] { ".jpg", ".png", ".jpeg" };
+            // Fetch the existing computer entry from the database
+            var existingComputer = await _context.Computers.AsNoTracking().FirstOrDefaultAsync(c => c.Id == id);
+
+            if (existingComputer == null)
+            {
+                return NotFound();
+            }
 
             try
             {
-                // If a new image file is uploaded, process it
-                if (imageFile != null && imageFile.Length > 0)
+                // If the ImagePath is not set (null), retain the existing image
+                if (string.IsNullOrEmpty(computer.ImagePath))
                 {
-                    var extension = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
-                    if (!allowedExtensions.Contains(extension))
-                    {
-                        ModelState.AddModelError("", "Please select a valid image type (JPG, PNG, JPEG).");
-                    }
-                    else
-                    {
-                        var randomFileName = Guid.NewGuid().ToString() + extension; // Generate a random file name
-                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomFileName);
-
-                        // Ensure the images directory exists
-                        if (!Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images")))
-                        {
-                            Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images"));
-                        }
-
-                        using (var stream = new FileStream(path, FileMode.Create))
-                        {
-                            await imageFile.CopyToAsync(stream); // Save the image to the specified path
-                        }
-                        computer.ImagePath = $"/images/{randomFileName}"; // Set the image path
-                    }
+                    computer.ImagePath = existingComputer.ImagePath;
                 }
 
                 if (ModelState.IsValid)
@@ -197,9 +179,7 @@ namespace TechMarketMvc.Controllers
             return View(computer);
         }
 
-
-        
-       // DELETE: /Computers/Delete/{id}
+        // DELETE: /Computers/Delete/{id}
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
@@ -210,13 +190,12 @@ namespace TechMarketMvc.Controllers
                 // Remove the computer from the database
                 _context.Computers.Remove(computer);
                 await _context.SaveChangesAsync();
-                
+
                 TempData["SuccessMessage"] = "Computer deleted successfully!";
             }
-            
+
             // Redirect to the Manage page
             return RedirectToAction("Manage");
         }
-
     }
 }
