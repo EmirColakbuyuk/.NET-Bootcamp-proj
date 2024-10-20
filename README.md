@@ -37,8 +37,8 @@ TechMarket MVC is a .NET-based web application designed to manage and showcase p
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/techmarket-mvc.git
-   cd techmarket-mvc
+   https://github.com/EmirColakbuyuk/.NET-Bootcamp-proj.git
+   cd TechMarketMvc
    ```
 
 2. **Install .NET SDK:**
@@ -62,7 +62,7 @@ TechMarket MVC is a .NET-based web application designed to manage and showcase p
    dotnet run
    ```
 
-   Then, navigate to `http://localhost:5000` to access the application.
+   Then, navigate to `http://localhost:5123` to access the application.
 
 ### Admin Access
 
