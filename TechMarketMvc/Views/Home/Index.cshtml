@@ -1,46 +1,120 @@
-﻿@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
+﻿@model TechMarketMvc.ViewModels.ProductViewModel
 
-<h2>Our Products</h2>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Our Latest Products</h2>
 
-<div class="row">
-    <div class="col-md-4">
-        <h3>Computers</h3>
-        <ul class="list-group">
+    <!-- Computers Section -->
+    <div class="category-section mb-5">
+        <h3 class="text-center mb-4">Latest Computers</h3>
+        <div class="row">
             @foreach (var computer in Model.Computers)
             {
-                <li class="list-group-item">
-                    <strong>@computer.Name</strong> - @computer.Brand (@computer.Processor, @computer.RAM GB RAM)
-                    <span class="badge badge-secondary float-right">@computer.Stock in stock</span>
-                </li>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="@Url.Content(computer.ImagePath)" alt="@computer.Name" class="card-img-top" style="height: 200px; object-fit: cover;" />
+                        <div class="card-body">
+                            <h5 class="card-title">@computer.Name</h5>
+                            <p class="card-text">
+                                <strong>Brand:</strong> @computer.Brand <br />
+                                <strong>Price:</strong> $@computer.Price
+                            </p>
+                            <a href="@Url.Action("ComputerDetails", "Home", new { id = computer.Id })" class="btn btn-primary btn-block">View Details</a>
+                        </div>
+                    </div>
+                </div>
             }
-        </ul>
+        </div>
     </div>
 
-    <div class="col-md-4">
-        <h3>Phones</h3>
-        <ul class="list-group">
+    <!-- Phones Section -->
+    <div class="category-section mb-5">
+        <h3 class="text-center mb-4">Latest Phones</h3>
+        <div class="row">
             @foreach (var phone in Model.Phones)
             {
-                <li class="list-group-item">
-                    <strong>@phone.Name</strong> - @phone.Brand (@phone.OperatingSystem, @phone.RAM GB RAM)
-                    <span class="badge badge-secondary float-right">@phone.Stock in stock</span>
-                </li>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="@Url.Content(phone.ImagePath)" alt="@phone.Name" class="card-img-top" style="height: 200px; object-fit: cover;" />
+                        <div class="card-body">
+                            <h5 class="card-title">@phone.Name</h5>
+                            <p class="card-text">
+                                <strong>Brand:</strong> @phone.Brand <br />
+                                <strong>Price:</strong> $@phone.Price
+                            </p>
+                            <a href="@Url.Action("PhoneDetails", "Home", new { id = phone.Id })" class="btn btn-primary btn-block">View Details</a>
+                        </div>
+                    </div>
+                </div>
             }
-        </ul>
+        </div>
     </div>
 
-    <div class="col-md-4">
-        <h3>Smartwatches</h3>
-        <ul class="list-group">
+    <!-- Smartwatches Section -->
+    <div class="category-section">
+        <h3 class="text-center mb-4">Latest Smartwatches</h3>
+        <div class="row">
             @foreach (var smartwatch in Model.Smartwatches)
             {
-                <li class="list-group-item">
-                    <strong>@smartwatch.Name</strong> - @smartwatch.Brand (GPS: @smartwatch.HasGPS)
-                    <span class="badge badge-secondary float-right">@smartwatch.Stock in stock</span>
-                </li>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="@Url.Content(smartwatch.ImagePath)" alt="@smartwatch.Name" class="card-img-top" style="height: 200px; object-fit: cover;" />
+                        <div class="card-body">
+                            <h5 class="card-title">@smartwatch.Name</h5>
+                            <p class="card-text">
+                                <strong>Brand:</strong> @smartwatch.Brand <br />
+                                <strong>Price:</strong> $@smartwatch.Price
+                            </p>
+                            <a href="@Url.Action("SmartwatchDetails", "Home", new { id = smartwatch.Id })" class="btn btn-primary btn-block">View Details</a>
+                        </div>
+                    </div>
+                </div>
             }
-        </ul>
+        </div>
     </div>
 </div>
+
+<!-- Additional Styling -->
+<style>
+    .category-section {
+        margin-bottom: 50px;
+    }
+
+    .card {
+        transition: transform 0.2s ease-in-out;
+        border: none;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+    
+</style>

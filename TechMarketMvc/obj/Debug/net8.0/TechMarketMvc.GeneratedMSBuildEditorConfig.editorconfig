@@ -38,12 +38,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJzXE1hbmFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Home/ComputerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wdXRlckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Home/PhoneDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaG9uZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Home/SmartwatchDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTbWFydHdhdGNoRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emirc/OneDrive/Desktop/VsCode/.NET-Bootcamp-proj/TechmarketMvc/Views/Phones/Add.cshtml]

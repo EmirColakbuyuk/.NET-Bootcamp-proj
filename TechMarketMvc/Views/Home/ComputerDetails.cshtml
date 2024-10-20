@@ -1,0 +1,53 @@
+@model TechMarketMvc.Models.Computer
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Image Section -->
+            <img src="@Url.Content(Model.ImagePath)" alt="@Model.Name" class="img-fluid rounded" style="max-height: 400px; object-fit: cover;" />
+        </div>
+        <div class="col-md-6">
+            <!-- Product Details Section -->
+            <h2 class="my-3">@Model.Name</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>Brand:</strong> @Model.Brand</li>
+                <li class="list-group-item"><strong>Processor:</strong> @Model.Processor</li>
+                <li class="list-group-item"><strong>RAM:</strong> @Model.RAM GB</li>
+                <li class="list-group-item"><strong>Storage:</strong> @Model.Storage</li>
+                <li class="list-group-item"><strong>Description:</strong> @Model.Description</li>
+                <li class="list-group-item"><strong>Stock:</strong> @Model.Stock</li>
+            </ul>
+            <div class="mt-4">
+                <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Additional Styling -->
+<style>
+    .container {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        font-weight: 700;
+        color: #333;
+    }
+
+    .list-group-item {
+        font-size: 1.1rem;
+    }
+
+    img.img-fluid {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-secondary {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+</style>

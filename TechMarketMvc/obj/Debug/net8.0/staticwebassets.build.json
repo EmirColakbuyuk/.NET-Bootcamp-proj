@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fvbZurH2IijX5OPWppCttU5otQ9O8BbOPdctQinxmPY=",
+  "Hash": "jwwZ8F3N2/dj3/13JeYobThywyCCVuMsohMY2JRmtFk=",
   "Source": "TechMarketMvc",
   "BasePath": "_content/TechMarketMvc",
   "Mode": "Default",
@@ -188,6 +188,25 @@
       "OriginalItemSpec": "wwwroot\\images\\3296df5e-b3ac-493f-aae7-6f0de700f11f.jpg"
     },
     {
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\3f8e1d26-ce43-46db-8e14-1202c0bbed47.jpeg",
+      "SourceId": "TechMarketMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "BasePath": "_content/TechMarketMvc",
+      "RelativePath": "images/3f8e1d26-ce43-46db-8e14-1202c0bbed47.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3f8e1d26-ce43-46db-8e14-1202c0bbed47.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\5918e061-95e9-4efa-b88d-f1053090282d.jpg",
       "SourceId": "TechMarketMvc",
       "SourceType": "Discovered",
@@ -357,6 +376,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\bf092b4a-3500-4a80-887b-47cc7f873d42.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\c31c46fe-feb0-4368-ba92-70888162b62a.jpg",
+      "SourceId": "TechMarketMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\",
+      "BasePath": "_content/TechMarketMvc",
+      "RelativePath": "images/c31c46fe-feb0-4368-ba92-70888162b62a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c31c46fe-feb0-4368-ba92-70888162b62a.jpg"
     },
     {
       "Identity": "C:\\Users\\emirc\\OneDrive\\Desktop\\VsCode\\.NET-Bootcamp-proj\\TechmarketMvc\\wwwroot\\images\\d85d330c-a86f-41e3-a080-497c3c4c5950.png",
