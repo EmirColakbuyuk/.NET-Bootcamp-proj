@@ -15,12 +15,13 @@
             </div>
             <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
 
-            @if (ViewData.ModelState[""] != null)
+            @if (!ViewData.ModelState.IsValid)
             {
                 <div class="alert alert-danger mt-3">
-                    @ViewData.ModelState[""].Errors[0].ErrorMessage
+                    @ViewData.ModelState.Values.SelectMany(v => v.Errors).FirstOrDefault()?.ErrorMessage
                 </div>
             }
+
         </form>
     </div>
 </div>
